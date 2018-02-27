@@ -1,0 +1,16 @@
+[Unit]
+Description=Create Postgresql keycloak user
+After=postgresql.service
+
+[Service]
+Type=oneshot
+User=postgres
+ExecStart=/bin/psql -c "CREATE USER sentry WITH PASSWORD 'sentry';"
+ExecStart=/bin/psql -c "CREATE DATABASE sentry;"
+ExecStart=/bin/psql -c "GRANT ALL ON DATABASE sentry TO sentry;"
+ExecStart=/bin/psql -c "ALTER USER sentry WITH superuser;" 
+ExecStart=+/bin/systemctl disable postgresql_init_sentry
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

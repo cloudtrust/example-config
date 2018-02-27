@@ -1,0 +1,10 @@
+[Unit]
+Description=Keycloak bridge daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/keycloak-bridge/keycloakd --config-file=/opt/keycloak-bridge/conf/keycloak_bridge.yaml
+
+[Install]
+WantedBy=multi-user.target
