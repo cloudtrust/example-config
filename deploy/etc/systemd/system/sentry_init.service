@@ -7,6 +7,7 @@ Type=oneshot
 Environment=SENTRY_CONF=/etc/sentry
 ExecStart=/bin/sentry upgrade --noinput
 ExecStart=/bin/sentry createuser --email admin@cloudtrust.com --password admin --superuser
+ExecStart=/bin/sentry import /etc/sentry/sentry.json
 ExecStart=+/bin/systemctl disable sentry_init 
 RemainAfterExit=true
 
