@@ -1,0 +1,31 @@
+{
+  "menu": [
+    {
+      "label": "Cloudtrust",
+      "items": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cloudtrust"
+        },
+        {
+          "label": "ELCA",
+          "url": "https://www.elca.ch/en/cloudtrust"
+        }
+      ]
+    },
+    {
+      "label": "About Jaeger",
+      "items": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jaegertracing/jaeger"
+        },
+        {
+          "label": "Docs",
+          "url": "http://jaeger.readthedocs.io/en/latest/"
+        }
+      ]
+    }
+  ],
+  "dependenciesMenuEnabled": false
+}

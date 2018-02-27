@@ -956,16 +956,16 @@
   "pk": 1, 
   "model": "sentry.email", 
   "fields": {
-    "date_added": "2018-01-26T13:43:39.555Z", 
-    "email": "cloudtrustsvc@gmail.com"
+    "date_added": "2018-02-27T17:20:06.415Z", 
+    "email": "admin@cloudtrust.com"
   }
 },
 {
   "pk": 1, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:58:06.622Z", 
-    "value": 1516975086.622488, 
+    "last_updated": "2018-02-27T17:22:13.665Z", 
+    "value": 1519752133.665611, 
     "key": "sentry:last_worker_ping"
   }
 },
@@ -973,7 +973,7 @@
   "pk": 2, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:58:06.633Z", 
+    "last_updated": "2018-02-27T17:22:13.697Z", 
     "value": "gAJYBgAAADguMjEuMHEBLg==", 
     "key": "sentry:last_worker_version"
   }
@@ -982,7 +982,7 @@
   "pk": 3, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.386Z", 
+    "last_updated": "2018-02-27T17:20:32.083Z", 
     "value": false, 
     "key": "mail.use-tls"
   }
@@ -991,7 +991,7 @@
   "pk": 4, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.391Z", 
+    "last_updated": "2018-02-27T17:20:32.091Z", 
     "value": "gAJYAAAAAC4=", 
     "key": "mail.username"
   }
@@ -1000,7 +1000,7 @@
   "pk": 5, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.395Z", 
+    "last_updated": "2018-02-27T17:20:32.095Z", 
     "value": 25, 
     "key": "mail.port"
   }
@@ -1009,8 +1009,8 @@
   "pk": 6, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.411Z", 
-    "value": "gAJYFwAAAGNsb3VkdHJ1c3RzdmNAZ21haWwuY29tcQEu", 
+    "last_updated": "2018-02-27T17:20:32.110Z", 
+    "value": "gAJYFAAAAGFkbWluQGNsb3VkdHJ1c3QuY29tcQEu", 
     "key": "system.admin-email"
   }
 },
@@ -1018,7 +1018,7 @@
   "pk": 7, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.415Z", 
+    "last_updated": "2018-02-27T17:20:32.117Z", 
     "value": "gAJYAAAAAC4=", 
     "key": "mail.password"
   }
@@ -1027,8 +1027,8 @@
   "pk": 8, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.422Z", 
-    "value": "gAJYGwAAAGh0dHBzOi8vc2VudHJ5LmV4dC5pY3JjLm9yZ3EBLg==", 
+    "last_updated": "2018-02-27T17:20:32.120Z", 
+    "value": "gAJYHQAAAGh0dHBzOi8vc2VudHJ5LmNsb3VkdHJ1c3QuY29tcQEu", 
     "key": "system.url-prefix"
   }
 },
@@ -1036,7 +1036,7 @@
   "pk": 9, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.425Z", 
+    "last_updated": "2018-02-27T17:20:32.122Z", 
     "value": false, 
     "key": "auth.allow-registration"
   }
@@ -1045,7 +1045,7 @@
   "pk": 10, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.428Z", 
+    "last_updated": "2018-02-27T17:20:32.126Z", 
     "value": true, 
     "key": "beacon.anonymous"
   }
@@ -1054,7 +1054,7 @@
   "pk": 11, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.432Z", 
+    "last_updated": "2018-02-27T17:20:32.134Z", 
     "value": "gAJYCQAAAGxvY2FsaG9zdHEBLg==", 
     "key": "mail.host"
   }
@@ -1063,7 +1063,7 @@
   "pk": 12, 
   "model": "sentry.option", 
   "fields": {
-    "last_updated": "2018-01-26T13:52:20.439Z", 
+    "last_updated": "2018-02-27T17:20:32.138Z", 
     "value": "gAJYBgAAADguMjEuMHEBLg==", 
     "key": "sentry:version-configured"
   }
@@ -1072,19 +1072,19 @@
   "pk": 1, 
   "model": "sentry.user", 
   "fields": {
-    "username": "cloudtrustsvc@gmail.com", 
+    "username": "admin@cloudtrust.com", 
     "session_nonce": null, 
     "name": "", 
-    "last_active": "2018-01-26T13:57:25.168Z", 
+    "last_active": "2018-02-27T17:20:06.371Z", 
     "is_active": true, 
     "is_superuser": true, 
     "is_staff": true, 
-    "last_login": "2018-01-26T13:51:32.736Z", 
-    "last_password_change": "2018-01-26T13:43:39.546Z", 
+    "last_login": "2018-02-27T17:20:16.120Z", 
+    "last_password_change": "2018-02-27T17:20:06.406Z", 
     "is_managed": false, 
-    "password": "pbkdf2_sha256$12000$9Kbvx0TajTO1$P1IWwGJjpjwTbSeEImAMZ5AQahME1wu3ig+9eDyLezo=", 
-    "email": "cloudtrustsvc@gmail.com", 
-    "date_joined": "2018-01-26T13:43:39.509Z", 
+    "password": "pbkdf2_sha256$12000$xh6ih4vATTLJ$HFoGwFIHOg2WZ+ozAhvJRiTEuZ/GNkpeLFszsWC5FAQ=", 
+    "email": "admin@cloudtrust.com", 
+    "date_joined": "2018-02-27T17:20:06.371Z", 
     "is_password_expired": false
   }
 },
@@ -1092,20 +1092,20 @@
   "pk": 1, 
   "model": "sentry.useremail", 
   "fields": {
-    "date_hash_added": "2018-01-26T13:43:39.551Z", 
-    "validation_hash": "53epHZfskgEMRTPLk3bGaq80SpIwHzi1", 
+    "date_hash_added": "2018-02-27T17:20:06.413Z", 
+    "validation_hash": "r4r1PceGkaXebgmyf6gRCAzHBGTNiBgL", 
     "is_verified": false, 
     "user": [
-      "cloudtrustsvc@gmail.com"
+      "admin@cloudtrust.com"
     ], 
-    "email": "cloudtrustsvc@gmail.com"
+    "email": "admin@cloudtrust.com"
   }
 },
 {
   "pk": 1, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.449Z", 
+    "applied": "2018-02-27T17:18:36.482Z", 
     "app_name": "sentry", 
     "migration": "0001_initial"
   }
@@ -1114,7 +1114,7 @@
   "pk": 2, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.489Z", 
+    "applied": "2018-02-27T17:18:36.527Z", 
     "app_name": "sentry", 
     "migration": "0002_auto__del_field_groupedmessage_url__chg_field_groupedmessage_view__chg"
   }
@@ -1123,7 +1123,7 @@
   "pk": 3, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.508Z", 
+    "applied": "2018-02-27T17:18:36.543Z", 
     "app_name": "sentry", 
     "migration": "0003_auto__add_field_message_group__del_field_groupedmessage_server_name"
   }
@@ -1132,7 +1132,7 @@
   "pk": 4, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.531Z", 
+    "applied": "2018-02-27T17:18:36.564Z", 
     "app_name": "sentry", 
     "migration": "0004_auto__add_filtervalue__add_unique_filtervalue_key_value"
   }
@@ -1141,7 +1141,7 @@
   "pk": 5, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.543Z", 
+    "applied": "2018-02-27T17:18:36.573Z", 
     "app_name": "sentry", 
     "migration": "0005_auto"
   }
@@ -1150,7 +1150,7 @@
   "pk": 6, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.556Z", 
+    "applied": "2018-02-27T17:18:36.587Z", 
     "app_name": "sentry", 
     "migration": "0006_auto"
   }
@@ -1159,7 +1159,7 @@
   "pk": 7, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.574Z", 
+    "applied": "2018-02-27T17:18:36.607Z", 
     "app_name": "sentry", 
     "migration": "0007_auto__add_field_message_site"
   }
@@ -1168,7 +1168,7 @@
   "pk": 8, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.629Z", 
+    "applied": "2018-02-27T17:18:36.658Z", 
     "app_name": "sentry", 
     "migration": "0008_auto__chg_field_message_view__add_field_groupedmessage_data__chg_field"
   }
@@ -1177,7 +1177,7 @@
   "pk": 9, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.643Z", 
+    "applied": "2018-02-27T17:18:36.673Z", 
     "app_name": "sentry", 
     "migration": "0009_auto__add_field_message_message_id"
   }
@@ -1186,7 +1186,7 @@
   "pk": 10, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.666Z", 
+    "applied": "2018-02-27T17:18:36.697Z", 
     "app_name": "sentry", 
     "migration": "0010_auto__add_messageindex__add_unique_messageindex_column_value_object_id"
   }
@@ -1195,7 +1195,7 @@
   "pk": 11, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.710Z", 
+    "applied": "2018-02-27T17:18:36.734Z", 
     "app_name": "sentry", 
     "migration": "0011_auto__add_field_groupedmessage_score"
   }
@@ -1204,7 +1204,7 @@
   "pk": 12, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.721Z", 
+    "applied": "2018-02-27T17:18:36.751Z", 
     "app_name": "sentry", 
     "migration": "0012_auto"
   }
@@ -1213,7 +1213,7 @@
   "pk": 13, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.757Z", 
+    "applied": "2018-02-27T17:18:36.788Z", 
     "app_name": "sentry", 
     "migration": "0013_auto__add_messagecountbyminute__add_unique_messagecountbyminute_group_"
   }
@@ -1222,7 +1222,7 @@
   "pk": 14, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.773Z", 
+    "applied": "2018-02-27T17:18:36.800Z", 
     "app_name": "sentry", 
     "migration": "0014_auto"
   }
@@ -1231,7 +1231,7 @@
   "pk": 15, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.819Z", 
+    "applied": "2018-02-27T17:18:36.842Z", 
     "app_name": "sentry", 
     "migration": "0014_auto__add_project__add_projectmember__add_unique_projectmember_project"
   }
@@ -1240,7 +1240,7 @@
   "pk": 16, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.926Z", 
+    "applied": "2018-02-27T17:18:36.929Z", 
     "app_name": "sentry", 
     "migration": "0015_auto__add_field_message_project__add_field_messagecountbyminute_projec"
   }
@@ -1249,7 +1249,7 @@
   "pk": 17, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.960Z", 
+    "applied": "2018-02-27T17:18:36.952Z", 
     "app_name": "sentry", 
     "migration": "0016_auto__add_field_projectmember_is_superuser"
   }
@@ -1258,7 +1258,7 @@
   "pk": 18, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:29.994Z", 
+    "applied": "2018-02-27T17:18:36.982Z", 
     "app_name": "sentry", 
     "migration": "0017_auto__add_field_projectmember_api_key"
   }
@@ -1267,7 +1267,7 @@
   "pk": 19, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.036Z", 
+    "applied": "2018-02-27T17:18:37.022Z", 
     "app_name": "sentry", 
     "migration": "0018_auto__chg_field_project_owner"
   }
@@ -1276,7 +1276,7 @@
   "pk": 20, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.080Z", 
+    "applied": "2018-02-27T17:18:37.062Z", 
     "app_name": "sentry", 
     "migration": "0019_auto__del_field_projectmember_api_key__add_field_projectmember_public_"
   }
@@ -1285,7 +1285,7 @@
   "pk": 21, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.114Z", 
+    "applied": "2018-02-27T17:18:37.095Z", 
     "app_name": "sentry", 
     "migration": "0020_auto__add_projectdomain__add_unique_projectdomain_project_domain"
   }
@@ -1294,7 +1294,7 @@
   "pk": 22, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.136Z", 
+    "applied": "2018-02-27T17:18:37.120Z", 
     "app_name": "sentry", 
     "migration": "0021_auto__del_message__del_groupedmessage__del_unique_groupedmessage_proje"
   }
@@ -1303,7 +1303,7 @@
   "pk": 23, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.164Z", 
+    "applied": "2018-02-27T17:18:37.157Z", 
     "app_name": "sentry", 
     "migration": "0022_auto__del_field_group_class_name__del_field_group_traceback__del_field"
   }
@@ -1312,7 +1312,7 @@
   "pk": 24, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.189Z", 
+    "applied": "2018-02-27T17:18:37.184Z", 
     "app_name": "sentry", 
     "migration": "0023_auto__add_field_event_time_spent"
   }
@@ -1321,7 +1321,7 @@
   "pk": 25, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.273Z", 
+    "applied": "2018-02-27T17:18:37.323Z", 
     "app_name": "sentry", 
     "migration": "0024_auto__add_field_group_time_spent_total__add_field_group_time_spent_cou"
   }
@@ -1330,7 +1330,7 @@
   "pk": 26, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.322Z", 
+    "applied": "2018-02-27T17:18:37.363Z", 
     "app_name": "sentry", 
     "migration": "0025_auto__add_field_messagecountbyminute_time_spent_total__add_field_messa"
   }
@@ -1339,7 +1339,7 @@
   "pk": 27, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.360Z", 
+    "applied": "2018-02-27T17:18:37.407Z", 
     "app_name": "sentry", 
     "migration": "0026_auto__add_field_project_status"
   }
@@ -1348,7 +1348,7 @@
   "pk": 28, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.406Z", 
+    "applied": "2018-02-27T17:18:37.447Z", 
     "app_name": "sentry", 
     "migration": "0027_auto__chg_field_event_server_name"
   }
@@ -1357,7 +1357,7 @@
   "pk": 29, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.442Z", 
+    "applied": "2018-02-27T17:18:37.485Z", 
     "app_name": "sentry", 
     "migration": "0028_auto__add_projectoptions__add_unique_projectoptions_project_key_value"
   }
@@ -1366,7 +1366,7 @@
   "pk": 30, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.483Z", 
+    "applied": "2018-02-27T17:18:37.524Z", 
     "app_name": "sentry", 
     "migration": "0029_auto__del_field_projectmember_is_superuser__del_field_projectmember_pe"
   }
@@ -1375,7 +1375,7 @@
   "pk": 31, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.534Z", 
+    "applied": "2018-02-27T17:18:37.572Z", 
     "app_name": "sentry", 
     "migration": "0030_auto__add_view__chg_field_event_group"
   }
@@ -1384,7 +1384,7 @@
   "pk": 32, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.571Z", 
+    "applied": "2018-02-27T17:18:37.603Z", 
     "app_name": "sentry", 
     "migration": "0031_auto__add_field_view_verbose_name__add_field_view_verbose_name_plural_"
   }
@@ -1393,7 +1393,7 @@
   "pk": 33, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.681Z", 
+    "applied": "2018-02-27T17:18:37.644Z", 
     "app_name": "sentry", 
     "migration": "0032_auto__add_eventmeta"
   }
@@ -1402,7 +1402,7 @@
   "pk": 34, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.728Z", 
+    "applied": "2018-02-27T17:18:37.682Z", 
     "app_name": "sentry", 
     "migration": "0033_auto__add_option__add_unique_option_key_value"
   }
@@ -1411,7 +1411,7 @@
   "pk": 35, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.784Z", 
+    "applied": "2018-02-27T17:18:37.732Z", 
     "app_name": "sentry", 
     "migration": "0034_auto__add_groupbookmark__add_unique_groupbookmark_project_user_group"
   }
@@ -1420,7 +1420,7 @@
   "pk": 36, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:30.966Z", 
+    "applied": "2018-02-27T17:18:37.914Z", 
     "app_name": "sentry", 
     "migration": "0034_auto__add_unique_option_key__del_unique_option_value_key__del_unique_g"
   }
@@ -1429,7 +1429,7 @@
   "pk": 37, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.030Z", 
+    "applied": "2018-02-27T17:18:37.979Z", 
     "app_name": "sentry", 
     "migration": "0036_auto__chg_field_option_value__chg_field_projectoption_value"
   }
@@ -1438,7 +1438,7 @@
   "pk": 38, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.080Z", 
+    "applied": "2018-02-27T17:18:38.029Z", 
     "app_name": "sentry", 
     "migration": "0037_auto__add_unique_option_key__del_unique_option_value_key__del_unique_g"
   }
@@ -1447,7 +1447,7 @@
   "pk": 39, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.144Z", 
+    "applied": "2018-02-27T17:18:38.081Z", 
     "app_name": "sentry", 
     "migration": "0038_auto__add_searchtoken__add_unique_searchtoken_document_field_token__ad"
   }
@@ -1456,7 +1456,7 @@
   "pk": 40, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.185Z", 
+    "applied": "2018-02-27T17:18:38.126Z", 
     "app_name": "sentry", 
     "migration": "0039_auto__add_field_searchdocument_status"
   }
@@ -1465,7 +1465,7 @@
   "pk": 41, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.241Z", 
+    "applied": "2018-02-27T17:18:38.170Z", 
     "app_name": "sentry", 
     "migration": "0040_auto__del_unique_event_event_id__add_unique_event_project_event_id"
   }
@@ -1474,7 +1474,7 @@
   "pk": 42, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.310Z", 
+    "applied": "2018-02-27T17:18:38.229Z", 
     "app_name": "sentry", 
     "migration": "0041_auto__add_field_messagefiltervalue_last_seen__add_field_messagefilterv"
   }
@@ -1483,7 +1483,7 @@
   "pk": 43, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.363Z", 
+    "applied": "2018-02-27T17:18:38.268Z", 
     "app_name": "sentry", 
     "migration": "0042_auto__add_projectcountbyminute__add_unique_projectcountbyminute_projec"
   }
@@ -1492,7 +1492,7 @@
   "pk": 44, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.430Z", 
+    "applied": "2018-02-27T17:18:38.331Z", 
     "app_name": "sentry", 
     "migration": "0043_auto__chg_field_option_value__chg_field_projectoption_value"
   }
@@ -1501,7 +1501,7 @@
   "pk": 45, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.487Z", 
+    "applied": "2018-02-27T17:18:38.383Z", 
     "app_name": "sentry", 
     "migration": "0044_auto__add_field_projectmember_is_active"
   }
@@ -1510,7 +1510,7 @@
   "pk": 46, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.536Z", 
+    "applied": "2018-02-27T17:18:38.429Z", 
     "app_name": "sentry", 
     "migration": "0045_auto__add_pendingprojectmember__add_unique_pendingprojectmember_projec"
   }
@@ -1519,7 +1519,7 @@
   "pk": 47, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.629Z", 
+    "applied": "2018-02-27T17:18:38.527Z", 
     "app_name": "sentry", 
     "migration": "0046_auto__add_teammember__add_unique_teammember_team_user__add_team__add_p"
   }
@@ -1528,7 +1528,7 @@
   "pk": 48, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.673Z", 
+    "applied": "2018-02-27T17:18:38.565Z", 
     "app_name": "sentry", 
     "migration": "0047_migrate_project_slugs"
   }
@@ -1537,7 +1537,7 @@
   "pk": 49, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.719Z", 
+    "applied": "2018-02-27T17:18:38.609Z", 
     "app_name": "sentry", 
     "migration": "0048_migrate_project_keys"
   }
@@ -1546,7 +1546,7 @@
   "pk": 50, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.769Z", 
+    "applied": "2018-02-27T17:18:38.651Z", 
     "app_name": "sentry", 
     "migration": "0049_create_default_project_keys"
   }
@@ -1555,7 +1555,7 @@
   "pk": 51, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.815Z", 
+    "applied": "2018-02-27T17:18:38.691Z", 
     "app_name": "sentry", 
     "migration": "0050_remove_project_keys_from_members"
   }
@@ -1564,7 +1564,7 @@
   "pk": 52, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.888Z", 
+    "applied": "2018-02-27T17:18:38.753Z", 
     "app_name": "sentry", 
     "migration": "0051_auto__del_pendingprojectmember__del_unique_pendingprojectmember_projec"
   }
@@ -1573,7 +1573,7 @@
   "pk": 53, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.931Z", 
+    "applied": "2018-02-27T17:18:38.796Z", 
     "app_name": "sentry", 
     "migration": "0052_migrate_project_members"
   }
@@ -1582,7 +1582,7 @@
   "pk": 54, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:31.995Z", 
+    "applied": "2018-02-27T17:18:38.845Z", 
     "app_name": "sentry", 
     "migration": "0053_auto__del_projectmember__del_unique_projectmember_project_user"
   }
@@ -1591,7 +1591,7 @@
   "pk": 55, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.050Z", 
+    "applied": "2018-02-27T17:18:38.879Z", 
     "app_name": "sentry", 
     "migration": "0054_fix_project_keys"
   }
@@ -1600,7 +1600,7 @@
   "pk": 56, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.097Z", 
+    "applied": "2018-02-27T17:18:38.929Z", 
     "app_name": "sentry", 
     "migration": "0055_auto__del_projectdomain__del_unique_projectdomain_project_domain"
   }
@@ -1609,7 +1609,7 @@
   "pk": 57, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.143Z", 
+    "applied": "2018-02-27T17:18:38.975Z", 
     "app_name": "sentry", 
     "migration": "0056_auto__add_field_group_resolved_at"
   }
@@ -1618,7 +1618,7 @@
   "pk": 58, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.187Z", 
+    "applied": "2018-02-27T17:18:39.021Z", 
     "app_name": "sentry", 
     "migration": "0057_auto__add_field_group_active_at"
   }
@@ -1627,7 +1627,7 @@
   "pk": 59, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.246Z", 
+    "applied": "2018-02-27T17:18:39.074Z", 
     "app_name": "sentry", 
     "migration": "0058_auto__add_useroption__add_unique_useroption_user_project_key"
   }
@@ -1636,7 +1636,7 @@
   "pk": 60, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.301Z", 
+    "applied": "2018-02-27T17:18:39.133Z", 
     "app_name": "sentry", 
     "migration": "0059_auto__add_filterkey__add_unique_filterkey_project_key"
   }
@@ -1645,7 +1645,7 @@
   "pk": 61, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.343Z", 
+    "applied": "2018-02-27T17:18:39.184Z", 
     "app_name": "sentry", 
     "migration": "0060_fill_filter_key"
   }
@@ -1654,7 +1654,7 @@
   "pk": 62, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.420Z", 
+    "applied": "2018-02-27T17:18:39.249Z", 
     "app_name": "sentry", 
     "migration": "0061_auto__add_field_group_group_id__add_field_group_is_public"
   }
@@ -1663,7 +1663,7 @@
   "pk": 63, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.463Z", 
+    "applied": "2018-02-27T17:18:39.297Z", 
     "app_name": "sentry", 
     "migration": "0062_correct_del_index_sentry_groupedmessage_logger__view__checksum"
   }
@@ -1672,7 +1672,7 @@
   "pk": 64, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.514Z", 
+    "applied": "2018-02-27T17:18:39.351Z", 
     "app_name": "sentry", 
     "migration": "0063_auto"
   }
@@ -1681,7 +1681,7 @@
   "pk": 65, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.566Z", 
+    "applied": "2018-02-27T17:18:39.403Z", 
     "app_name": "sentry", 
     "migration": "0064_index_checksum"
   }
@@ -1690,7 +1690,7 @@
   "pk": 66, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.613Z", 
+    "applied": "2018-02-27T17:18:39.448Z", 
     "app_name": "sentry", 
     "migration": "0065_create_default_project_key"
   }
@@ -1699,7 +1699,7 @@
   "pk": 67, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.671Z", 
+    "applied": "2018-02-27T17:18:39.488Z", 
     "app_name": "sentry", 
     "migration": "0066_auto__del_view"
   }
@@ -1708,7 +1708,7 @@
   "pk": 68, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.716Z", 
+    "applied": "2018-02-27T17:18:39.540Z", 
     "app_name": "sentry", 
     "migration": "0067_auto__add_field_group_platform__add_field_event_platform"
   }
@@ -1717,7 +1717,7 @@
   "pk": 69, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.782Z", 
+    "applied": "2018-02-27T17:18:39.618Z", 
     "app_name": "sentry", 
     "migration": "0068_auto__add_field_projectkey_user_added__add_field_projectkey_date_added"
   }
@@ -1726,7 +1726,7 @@
   "pk": 70, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:32.834Z", 
+    "applied": "2018-02-27T17:18:39.689Z", 
     "app_name": "sentry", 
     "migration": "0069_auto__add_lostpasswordhash"
   }
@@ -1735,7 +1735,7 @@
   "pk": 71, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.048Z", 
+    "applied": "2018-02-27T17:18:39.907Z", 
     "app_name": "sentry", 
     "migration": "0070_projectoption_key_length"
   }
@@ -1744,7 +1744,7 @@
   "pk": 72, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.122Z", 
+    "applied": "2018-02-27T17:18:39.996Z", 
     "app_name": "sentry", 
     "migration": "0071_auto__add_field_group_users_seen"
   }
@@ -1753,7 +1753,7 @@
   "pk": 73, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.199Z", 
+    "applied": "2018-02-27T17:18:40.083Z", 
     "app_name": "sentry", 
     "migration": "0072_auto__add_affecteduserbygroup__add_unique_affecteduserbygroup_project_"
   }
@@ -1762,7 +1762,7 @@
   "pk": 74, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.245Z", 
+    "applied": "2018-02-27T17:18:40.137Z", 
     "app_name": "sentry", 
     "migration": "0073_auto__add_field_project_platform"
   }
@@ -1771,7 +1771,7 @@
   "pk": 75, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.314Z", 
+    "applied": "2018-02-27T17:18:40.195Z", 
     "app_name": "sentry", 
     "migration": "0074_correct_filtervalue_index"
   }
@@ -1780,7 +1780,7 @@
   "pk": 76, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.393Z", 
+    "applied": "2018-02-27T17:18:40.251Z", 
     "app_name": "sentry", 
     "migration": "0075_add_groupbookmark_index"
   }
@@ -1789,7 +1789,7 @@
   "pk": 77, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.460Z", 
+    "applied": "2018-02-27T17:18:40.314Z", 
     "app_name": "sentry", 
     "migration": "0076_add_groupmeta_index"
   }
@@ -1798,7 +1798,7 @@
   "pk": 78, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.531Z", 
+    "applied": "2018-02-27T17:18:40.394Z", 
     "app_name": "sentry", 
     "migration": "0077_auto__add_trackeduser__add_unique_trackeduser_project_ident"
   }
@@ -1807,7 +1807,7 @@
   "pk": 79, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.600Z", 
+    "applied": "2018-02-27T17:18:40.462Z", 
     "app_name": "sentry", 
     "migration": "0078_auto__add_field_affecteduserbygroup_tuser"
   }
@@ -1816,7 +1816,7 @@
   "pk": 80, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.683Z", 
+    "applied": "2018-02-27T17:18:40.558Z", 
     "app_name": "sentry", 
     "migration": "0079_auto__del_unique_affecteduserbygroup_project_ident_group__add_unique_a"
   }
@@ -1825,7 +1825,7 @@
   "pk": 81, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.755Z", 
+    "applied": "2018-02-27T17:18:40.636Z", 
     "app_name": "sentry", 
     "migration": "0080_auto__chg_field_affecteduserbygroup_ident"
   }
@@ -1834,7 +1834,7 @@
   "pk": 82, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.813Z", 
+    "applied": "2018-02-27T17:18:40.702Z", 
     "app_name": "sentry", 
     "migration": "0081_fill_trackeduser"
   }
@@ -1843,7 +1843,7 @@
   "pk": 83, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:33.943Z", 
+    "applied": "2018-02-27T17:18:40.850Z", 
     "app_name": "sentry", 
     "migration": "0082_auto__add_activity__add_field_group_num_comments__add_field_event_num_"
   }
@@ -1852,7 +1852,7 @@
   "pk": 84, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.007Z", 
+    "applied": "2018-02-27T17:18:40.944Z", 
     "app_name": "sentry", 
     "migration": "0083_migrate_dupe_groups"
   }
@@ -1861,7 +1861,7 @@
   "pk": 85, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.072Z", 
+    "applied": "2018-02-27T17:18:41.023Z", 
     "app_name": "sentry", 
     "migration": "0084_auto__del_unique_group_project_checksum_logger_culprit__add_unique_gro"
   }
@@ -1870,7 +1870,7 @@
   "pk": 86, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.137Z", 
+    "applied": "2018-02-27T17:18:41.085Z", 
     "app_name": "sentry", 
     "migration": "0085_auto__del_unique_project_slug__add_unique_project_slug_team"
   }
@@ -1879,7 +1879,7 @@
   "pk": 87, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.205Z", 
+    "applied": "2018-02-27T17:18:41.150Z", 
     "app_name": "sentry", 
     "migration": "0086_auto__add_field_team_date_added"
   }
@@ -1888,7 +1888,7 @@
   "pk": 88, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.261Z", 
+    "applied": "2018-02-27T17:18:41.195Z", 
     "app_name": "sentry", 
     "migration": "0087_auto__del_messagefiltervalue__del_unique_messagefiltervalue_project_ke"
   }
@@ -1897,7 +1897,7 @@
   "pk": 89, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.339Z", 
+    "applied": "2018-02-27T17:18:41.251Z", 
     "app_name": "sentry", 
     "migration": "0088_auto__del_messagecountbyminute__del_unique_messagecountbyminute_projec"
   }
@@ -1906,7 +1906,7 @@
   "pk": 90, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.443Z", 
+    "applied": "2018-02-27T17:18:41.340Z", 
     "app_name": "sentry", 
     "migration": "0089_auto__add_accessgroup__add_unique_accessgroup_team_name"
   }
@@ -1915,7 +1915,7 @@
   "pk": 91, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.551Z", 
+    "applied": "2018-02-27T17:18:41.457Z", 
     "app_name": "sentry", 
     "migration": "0090_auto__add_grouptagkey__add_unique_grouptagkey_project_group_key__add_f"
   }
@@ -1924,7 +1924,7 @@
   "pk": 92, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.635Z", 
+    "applied": "2018-02-27T17:18:41.533Z", 
     "app_name": "sentry", 
     "migration": "0091_auto__add_alert"
   }
@@ -1933,7 +1933,7 @@
   "pk": 93, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.722Z", 
+    "applied": "2018-02-27T17:18:41.611Z", 
     "app_name": "sentry", 
     "migration": "0092_auto__add_alertrelatedgroup__add_unique_alertrelatedgroup_group_alert"
   }
@@ -1942,7 +1942,7 @@
   "pk": 94, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.809Z", 
+    "applied": "2018-02-27T17:18:41.686Z", 
     "app_name": "sentry", 
     "migration": "0093_auto__add_field_alert_status"
   }
@@ -1951,7 +1951,7 @@
   "pk": 95, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.892Z", 
+    "applied": "2018-02-27T17:18:41.772Z", 
     "app_name": "sentry", 
     "migration": "0094_auto__add_eventmapping__add_unique_eventmapping_project_event_id"
   }
@@ -1960,7 +1960,7 @@
   "pk": 96, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:34.967Z", 
+    "applied": "2018-02-27T17:18:41.843Z", 
     "app_name": "sentry", 
     "migration": "0095_rebase"
   }
@@ -1969,7 +1969,7 @@
   "pk": 97, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.043Z", 
+    "applied": "2018-02-27T17:18:41.914Z", 
     "app_name": "sentry", 
     "migration": "0096_auto__add_field_tagvalue_data"
   }
@@ -1978,7 +1978,7 @@
   "pk": 98, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.141Z", 
+    "applied": "2018-02-27T17:18:41.997Z", 
     "app_name": "sentry", 
     "migration": "0097_auto__del_affecteduserbygroup__del_unique_affecteduserbygroup_project_"
   }
@@ -1987,7 +1987,7 @@
   "pk": 99, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.228Z", 
+    "applied": "2018-02-27T17:18:42.088Z", 
     "app_name": "sentry", 
     "migration": "0098_auto__add_user__chg_field_team_owner__chg_field_activity_user__chg_fie"
   }
@@ -1996,7 +1996,7 @@
   "pk": 100, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.299Z", 
+    "applied": "2018-02-27T17:18:42.183Z", 
     "app_name": "sentry", 
     "migration": "0099_auto__del_field_teammember_is_active"
   }
@@ -2005,7 +2005,7 @@
   "pk": 101, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.388Z", 
+    "applied": "2018-02-27T17:18:42.273Z", 
     "app_name": "sentry", 
     "migration": "0100_auto__add_field_tagkey_label"
   }
@@ -2014,7 +2014,7 @@
   "pk": 102, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.455Z", 
+    "applied": "2018-02-27T17:18:42.350Z", 
     "app_name": "sentry", 
     "migration": "0101_ensure_teams"
   }
@@ -2023,7 +2023,7 @@
   "pk": 103, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.730Z", 
+    "applied": "2018-02-27T17:18:42.633Z", 
     "app_name": "sentry", 
     "migration": "0102_ensure_slugs"
   }
@@ -2032,7 +2032,7 @@
   "pk": 104, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.805Z", 
+    "applied": "2018-02-27T17:18:42.726Z", 
     "app_name": "sentry", 
     "migration": "0103_ensure_non_empty_slugs"
   }
@@ -2041,7 +2041,7 @@
   "pk": 105, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:35.895Z", 
+    "applied": "2018-02-27T17:18:42.815Z", 
     "app_name": "sentry", 
     "migration": "0104_auto__add_groupseen__add_unique_groupseen_group_user"
   }
@@ -2050,7 +2050,7 @@
   "pk": 106, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.091Z", 
+    "applied": "2018-02-27T17:18:43.041Z", 
     "app_name": "sentry", 
     "migration": "0105_auto__chg_field_projectcountbyminute_time_spent_total__chg_field_group"
   }
@@ -2059,7 +2059,7 @@
   "pk": 107, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.165Z", 
+    "applied": "2018-02-27T17:18:43.125Z", 
     "app_name": "sentry", 
     "migration": "0106_auto__del_searchtoken__del_unique_searchtoken_document_field_token__de"
   }
@@ -2068,7 +2068,7 @@
   "pk": 108, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.265Z", 
+    "applied": "2018-02-27T17:18:43.253Z", 
     "app_name": "sentry", 
     "migration": "0107_expand_user"
   }
@@ -2077,7 +2077,7 @@
   "pk": 109, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.351Z", 
+    "applied": "2018-02-27T17:18:43.347Z", 
     "app_name": "sentry", 
     "migration": "0108_fix_user"
   }
@@ -2086,7 +2086,7 @@
   "pk": 110, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.434Z", 
+    "applied": "2018-02-27T17:18:43.422Z", 
     "app_name": "sentry", 
     "migration": "0109_index_filtervalue_times_seen"
   }
@@ -2095,7 +2095,7 @@
   "pk": 111, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.501Z", 
+    "applied": "2018-02-27T17:18:43.499Z", 
     "app_name": "sentry", 
     "migration": "0110_index_filtervalue_last_seen"
   }
@@ -2104,7 +2104,7 @@
   "pk": 112, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.577Z", 
+    "applied": "2018-02-27T17:18:43.566Z", 
     "app_name": "sentry", 
     "migration": "0111_index_filtervalue_first_seen"
   }
@@ -2113,7 +2113,7 @@
   "pk": 113, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.642Z", 
+    "applied": "2018-02-27T17:18:43.627Z", 
     "app_name": "sentry", 
     "migration": "0112_auto__chg_field_option_value__chg_field_useroption_value__chg_field_pr"
   }
@@ -2122,7 +2122,7 @@
   "pk": 114, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.722Z", 
+    "applied": "2018-02-27T17:18:43.701Z", 
     "app_name": "sentry", 
     "migration": "0113_auto__add_field_team_status"
   }
@@ -2131,7 +2131,7 @@
   "pk": 115, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.800Z", 
+    "applied": "2018-02-27T17:18:43.798Z", 
     "app_name": "sentry", 
     "migration": "0114_auto__add_field_projectkey_roles"
   }
@@ -2140,7 +2140,7 @@
   "pk": 116, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.864Z", 
+    "applied": "2018-02-27T17:18:43.876Z", 
     "app_name": "sentry", 
     "migration": "0115_auto__del_projectcountbyminute__del_unique_projectcountbyminute_projec"
   }
@@ -2149,7 +2149,7 @@
   "pk": 117, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.924Z", 
+    "applied": "2018-02-27T17:18:43.957Z", 
     "app_name": "sentry", 
     "migration": "0116_auto__del_field_event_server_name__del_field_event_culprit__del_field_"
   }
@@ -2158,7 +2158,7 @@
   "pk": 118, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:36.997Z", 
+    "applied": "2018-02-27T17:18:44.033Z", 
     "app_name": "sentry", 
     "migration": "0117_auto__add_rule"
   }
@@ -2167,7 +2167,7 @@
   "pk": 119, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.067Z", 
+    "applied": "2018-02-27T17:18:44.095Z", 
     "app_name": "sentry", 
     "migration": "0118_create_default_rules"
   }
@@ -2176,7 +2176,7 @@
   "pk": 120, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.151Z", 
+    "applied": "2018-02-27T17:18:44.155Z", 
     "app_name": "sentry", 
     "migration": "0119_auto__add_field_projectkey_label"
   }
@@ -2185,7 +2185,7 @@
   "pk": 121, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.244Z", 
+    "applied": "2018-02-27T17:18:44.259Z", 
     "app_name": "sentry", 
     "migration": "0120_auto__add_grouprulestatus"
   }
@@ -2194,7 +2194,7 @@
   "pk": 122, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.311Z", 
+    "applied": "2018-02-27T17:18:44.346Z", 
     "app_name": "sentry", 
     "migration": "0121_auto__add_unique_grouprulestatus_rule_group"
   }
@@ -2203,7 +2203,7 @@
   "pk": 123, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.391Z", 
+    "applied": "2018-02-27T17:18:44.419Z", 
     "app_name": "sentry", 
     "migration": "0122_add_event_group_id_datetime_index"
   }
@@ -2212,7 +2212,7 @@
   "pk": 124, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.480Z", 
+    "applied": "2018-02-27T17:18:44.517Z", 
     "app_name": "sentry", 
     "migration": "0123_auto__add_groupassignee__add_index_event_group_datetime"
   }
@@ -2221,7 +2221,7 @@
   "pk": 125, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.576Z", 
+    "applied": "2018-02-27T17:18:44.613Z", 
     "app_name": "sentry", 
     "migration": "0124_auto__add_grouphash__add_unique_grouphash_project_hash"
   }
@@ -2230,7 +2230,7 @@
   "pk": 126, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.653Z", 
+    "applied": "2018-02-27T17:18:44.698Z", 
     "app_name": "sentry", 
     "migration": "0125_auto__add_field_user_is_managed"
   }
@@ -2239,7 +2239,7 @@
   "pk": 127, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.735Z", 
+    "applied": "2018-02-27T17:18:44.788Z", 
     "app_name": "sentry", 
     "migration": "0126_auto__add_field_option_last_updated"
   }
@@ -2248,7 +2248,7 @@
   "pk": 128, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.820Z", 
+    "applied": "2018-02-27T17:18:44.882Z", 
     "app_name": "sentry", 
     "migration": "0127_auto__add_release__add_unique_release_project_version"
   }
@@ -2257,7 +2257,7 @@
   "pk": 129, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.903Z", 
+    "applied": "2018-02-27T17:18:44.999Z", 
     "app_name": "sentry", 
     "migration": "0128_auto__add_broadcast"
   }
@@ -2266,7 +2266,7 @@
   "pk": 130, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:37.984Z", 
+    "applied": "2018-02-27T17:18:45.108Z", 
     "app_name": "sentry", 
     "migration": "0129_auto__chg_field_release_id__chg_field_pendingteammember_id__chg_field_"
   }
@@ -2275,7 +2275,7 @@
   "pk": 131, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:38.072Z", 
+    "applied": "2018-02-27T17:18:45.216Z", 
     "app_name": "sentry", 
     "migration": "0130_auto__del_field_project_owner"
   }
@@ -2284,7 +2284,7 @@
   "pk": 132, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:38.182Z", 
+    "applied": "2018-02-27T17:18:45.337Z", 
     "app_name": "sentry", 
     "migration": "0131_auto__add_organizationmember__add_unique_organizationmember_organizati"
   }
@@ -2293,7 +2293,7 @@
   "pk": 133, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:38.268Z", 
+    "applied": "2018-02-27T17:18:45.423Z", 
     "app_name": "sentry", 
     "migration": "0132_add_default_orgs"
   }
@@ -2302,7 +2302,7 @@
   "pk": 134, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:38.349Z", 
+    "applied": "2018-02-27T17:18:45.511Z", 
     "app_name": "sentry", 
     "migration": "0133_add_org_members"
   }
@@ -2311,7 +2311,7 @@
   "pk": 135, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:38.467Z", 
+    "applied": "2018-02-27T17:18:45.630Z", 
     "app_name": "sentry", 
     "migration": "0134_auto__chg_field_team_organization"
   }
@@ -2320,7 +2320,7 @@
   "pk": 136, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:38.578Z", 
+    "applied": "2018-02-27T17:18:45.782Z", 
     "app_name": "sentry", 
     "migration": "0135_auto__chg_field_project_team"
   }
@@ -2329,7 +2329,7 @@
   "pk": 137, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:38.680Z", 
+    "applied": "2018-02-27T17:18:45.902Z", 
     "app_name": "sentry", 
     "migration": "0136_auto__add_field_organizationmember_email__chg_field_organizationmember"
   }
@@ -2338,7 +2338,7 @@
   "pk": 138, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:38.810Z", 
+    "applied": "2018-02-27T17:18:46.006Z", 
     "app_name": "sentry", 
     "migration": "0137_auto__add_field_organizationmember_has_global_access"
   }
@@ -2347,7 +2347,7 @@
   "pk": 139, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.158Z", 
+    "applied": "2018-02-27T17:18:46.331Z", 
     "app_name": "sentry", 
     "migration": "0138_migrate_team_members"
   }
@@ -2356,7 +2356,7 @@
   "pk": 140, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.278Z", 
+    "applied": "2018-02-27T17:18:46.423Z", 
     "app_name": "sentry", 
     "migration": "0139_auto__add_auditlogentry"
   }
@@ -2365,7 +2365,7 @@
   "pk": 141, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.397Z", 
+    "applied": "2018-02-27T17:18:46.506Z", 
     "app_name": "sentry", 
     "migration": "0140_auto__add_field_organization_slug"
   }
@@ -2374,7 +2374,7 @@
   "pk": 142, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.490Z", 
+    "applied": "2018-02-27T17:18:46.584Z", 
     "app_name": "sentry", 
     "migration": "0141_fill_org_slugs"
   }
@@ -2383,7 +2383,7 @@
   "pk": 143, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.591Z", 
+    "applied": "2018-02-27T17:18:46.670Z", 
     "app_name": "sentry", 
     "migration": "0142_auto__add_field_project_organization__add_unique_project_organization_"
   }
@@ -2392,7 +2392,7 @@
   "pk": 144, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.678Z", 
+    "applied": "2018-02-27T17:18:46.747Z", 
     "app_name": "sentry", 
     "migration": "0143_fill_project_orgs"
   }
@@ -2401,7 +2401,7 @@
   "pk": 145, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.785Z", 
+    "applied": "2018-02-27T17:18:46.846Z", 
     "app_name": "sentry", 
     "migration": "0144_auto__chg_field_project_organization"
   }
@@ -2410,7 +2410,7 @@
   "pk": 146, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.893Z", 
+    "applied": "2018-02-27T17:18:46.952Z", 
     "app_name": "sentry", 
     "migration": "0145_auto__chg_field_organization_slug"
   }
@@ -2419,7 +2419,7 @@
   "pk": 147, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:39.980Z", 
+    "applied": "2018-02-27T17:18:47.041Z", 
     "app_name": "sentry", 
     "migration": "0146_auto__add_field_auditlogentry_ip_address"
   }
@@ -2428,7 +2428,7 @@
   "pk": 148, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:40.076Z", 
+    "applied": "2018-02-27T17:18:47.134Z", 
     "app_name": "sentry", 
     "migration": "0147_auto__del_unique_team_slug__add_unique_team_organization_slug"
   }
@@ -2437,7 +2437,7 @@
   "pk": 149, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:40.187Z", 
+    "applied": "2018-02-27T17:18:47.240Z", 
     "app_name": "sentry", 
     "migration": "0148_auto__add_helppage"
   }
@@ -2446,7 +2446,7 @@
   "pk": 150, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:40.289Z", 
+    "applied": "2018-02-27T17:18:47.333Z", 
     "app_name": "sentry", 
     "migration": "0149_auto__chg_field_groupseen_project__chg_field_groupseen_user__chg_field"
   }
@@ -2455,7 +2455,7 @@
   "pk": 151, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:40.401Z", 
+    "applied": "2018-02-27T17:18:47.455Z", 
     "app_name": "sentry", 
     "migration": "0150_fix_broken_rules"
   }
@@ -2464,7 +2464,7 @@
   "pk": 152, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:40.501Z", 
+    "applied": "2018-02-27T17:18:47.581Z", 
     "app_name": "sentry", 
     "migration": "0151_auto__add_file"
   }
@@ -2473,7 +2473,7 @@
   "pk": 153, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:40.633Z", 
+    "applied": "2018-02-27T17:18:47.691Z", 
     "app_name": "sentry", 
     "migration": "0152_auto__add_field_file_checksum__chg_field_file_name__add_unique_file_na"
   }
@@ -2482,7 +2482,7 @@
   "pk": 154, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:40.745Z", 
+    "applied": "2018-02-27T17:18:47.784Z", 
     "app_name": "sentry", 
     "migration": "0153_auto__add_field_grouprulestatus_last_active"
   }
@@ -2491,7 +2491,7 @@
   "pk": 155, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:40.862Z", 
+    "applied": "2018-02-27T17:18:47.915Z", 
     "app_name": "sentry", 
     "migration": "0154_auto__add_field_tagkey_status"
   }
@@ -2500,7 +2500,7 @@
   "pk": 156, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:41.005Z", 
+    "applied": "2018-02-27T17:18:48.035Z", 
     "app_name": "sentry", 
     "migration": "0155_auto__add_field_projectkey_status"
   }
@@ -2509,7 +2509,7 @@
   "pk": 157, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:41.134Z", 
+    "applied": "2018-02-27T17:18:48.171Z", 
     "app_name": "sentry", 
     "migration": "0156_auto__add_apikey"
   }
@@ -2518,7 +2518,7 @@
   "pk": 158, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:41.279Z", 
+    "applied": "2018-02-27T17:18:48.307Z", 
     "app_name": "sentry", 
     "migration": "0157_auto__add_authidentity__add_unique_authidentity_auth_provider_ident__a"
   }
@@ -2527,7 +2527,7 @@
   "pk": 159, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:41.401Z", 
+    "applied": "2018-02-27T17:18:48.408Z", 
     "app_name": "sentry", 
     "migration": "0158_auto__add_unique_authidentity_auth_provider_user"
   }
@@ -2536,7 +2536,7 @@
   "pk": 160, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:41.545Z", 
+    "applied": "2018-02-27T17:18:48.544Z", 
     "app_name": "sentry", 
     "migration": "0159_auto__add_field_authidentity_last_verified__add_field_organizationmemb"
   }
@@ -2545,7 +2545,7 @@
   "pk": 161, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:41.688Z", 
+    "applied": "2018-02-27T17:18:48.689Z", 
     "app_name": "sentry", 
     "migration": "0160_auto__add_field_authprovider_default_global_access"
   }
@@ -2554,7 +2554,7 @@
   "pk": 162, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:41.823Z", 
+    "applied": "2018-02-27T17:18:48.853Z", 
     "app_name": "sentry", 
     "migration": "0161_auto__chg_field_authprovider_config"
   }
@@ -2563,7 +2563,7 @@
   "pk": 163, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:41.951Z", 
+    "applied": "2018-02-27T17:18:48.987Z", 
     "app_name": "sentry", 
     "migration": "0162_auto__chg_field_authidentity_data"
   }
@@ -2572,7 +2572,7 @@
   "pk": 164, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:42.078Z", 
+    "applied": "2018-02-27T17:18:49.095Z", 
     "app_name": "sentry", 
     "migration": "0163_auto__add_field_authidentity_last_synced"
   }
@@ -2581,7 +2581,7 @@
   "pk": 165, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:42.284Z", 
+    "applied": "2018-02-27T17:18:49.260Z", 
     "app_name": "sentry", 
     "migration": "0164_auto__add_releasefile__add_unique_releasefile_release_ident__add_field"
   }
@@ -2590,7 +2590,7 @@
   "pk": 166, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:42.415Z", 
+    "applied": "2018-02-27T17:18:49.369Z", 
     "app_name": "sentry", 
     "migration": "0165_auto__del_unique_file_name_checksum"
   }
@@ -2599,7 +2599,7 @@
   "pk": 167, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:42.530Z", 
+    "applied": "2018-02-27T17:18:49.476Z", 
     "app_name": "sentry", 
     "migration": "0166_auto__chg_field_user_id__add_field_apikey_allowed_origins"
   }
@@ -2608,7 +2608,7 @@
   "pk": 168, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:42.662Z", 
+    "applied": "2018-02-27T17:18:49.582Z", 
     "app_name": "sentry", 
     "migration": "0167_auto__add_field_authprovider_flags"
   }
@@ -2617,7 +2617,7 @@
   "pk": 169, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:42.791Z", 
+    "applied": "2018-02-27T17:18:49.688Z", 
     "app_name": "sentry", 
     "migration": "0168_unfill_projectkey_user"
   }
@@ -2626,7 +2626,7 @@
   "pk": 170, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:42.917Z", 
+    "applied": "2018-02-27T17:18:49.789Z", 
     "app_name": "sentry", 
     "migration": "0169_auto__del_field_projectkey_user"
   }
@@ -2635,7 +2635,7 @@
   "pk": 171, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:43.082Z", 
+    "applied": "2018-02-27T17:18:49.935Z", 
     "app_name": "sentry", 
     "migration": "0170_auto__add_organizationmemberteam__add_unique_organizationmemberteam_te"
   }
@@ -2644,7 +2644,7 @@
   "pk": 172, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:43.228Z", 
+    "applied": "2018-02-27T17:18:50.071Z", 
     "app_name": "sentry", 
     "migration": "0171_auto__chg_field_team_owner"
   }
@@ -2653,7 +2653,7 @@
   "pk": 173, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:43.669Z", 
+    "applied": "2018-02-27T17:18:50.558Z", 
     "app_name": "sentry", 
     "migration": "0172_auto__del_field_team_owner"
   }
@@ -2662,7 +2662,7 @@
   "pk": 174, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:43.792Z", 
+    "applied": "2018-02-27T17:18:50.671Z", 
     "app_name": "sentry", 
     "migration": "0173_auto__del_teammember__del_unique_teammember_team_user"
   }
@@ -2671,7 +2671,7 @@
   "pk": 175, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:43.957Z", 
+    "applied": "2018-02-27T17:18:50.777Z", 
     "app_name": "sentry", 
     "migration": "0174_auto__del_field_projectkey_user_added"
   }
@@ -2680,7 +2680,7 @@
   "pk": 176, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:44.087Z", 
+    "applied": "2018-02-27T17:18:50.921Z", 
     "app_name": "sentry", 
     "migration": "0175_auto__del_pendingteammember__del_unique_pendingteammember_team_email"
   }
@@ -2689,7 +2689,7 @@
   "pk": 177, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:44.223Z", 
+    "applied": "2018-02-27T17:18:51.123Z", 
     "app_name": "sentry", 
     "migration": "0176_auto__add_field_organizationmember_counter__add_unique_organizationmem"
   }
@@ -2698,7 +2698,7 @@
   "pk": 178, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:44.341Z", 
+    "applied": "2018-02-27T17:18:51.234Z", 
     "app_name": "sentry", 
     "migration": "0177_fill_member_counters"
   }
@@ -2707,7 +2707,7 @@
   "pk": 179, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:44.490Z", 
+    "applied": "2018-02-27T17:18:51.355Z", 
     "app_name": "sentry", 
     "migration": "0178_auto__del_unique_organizationmember_organization_counter"
   }
@@ -2716,7 +2716,7 @@
   "pk": 180, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:44.616Z", 
+    "applied": "2018-02-27T17:18:51.464Z", 
     "app_name": "sentry", 
     "migration": "0179_auto__add_field_release_date_released"
   }
@@ -2725,7 +2725,7 @@
   "pk": 181, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:44.775Z", 
+    "applied": "2018-02-27T17:18:51.598Z", 
     "app_name": "sentry", 
     "migration": "0180_auto__add_field_release_environment__add_field_release_ref__add_field_"
   }
@@ -2734,7 +2734,7 @@
   "pk": 182, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:44.910Z", 
+    "applied": "2018-02-27T17:18:51.724Z", 
     "app_name": "sentry", 
     "migration": "0181_auto__del_field_release_environment__del_unique_release_project_versio"
   }
@@ -2743,7 +2743,7 @@
   "pk": 183, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:45.067Z", 
+    "applied": "2018-02-27T17:18:51.860Z", 
     "app_name": "sentry", 
     "migration": "0182_auto__add_field_auditlogentry_actor_label__add_field_auditlogentry_act"
   }
@@ -2752,7 +2752,7 @@
   "pk": 184, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:45.203Z", 
+    "applied": "2018-02-27T17:18:51.971Z", 
     "app_name": "sentry", 
     "migration": "0183_auto__del_index_grouphash_hash"
   }
@@ -2761,7 +2761,7 @@
   "pk": 185, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:45.346Z", 
+    "applied": "2018-02-27T17:18:52.094Z", 
     "app_name": "sentry", 
     "migration": "0184_auto__del_field_group_checksum__del_unique_group_project_checksum__del"
   }
@@ -2770,7 +2770,7 @@
   "pk": 186, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:45.483Z", 
+    "applied": "2018-02-27T17:18:52.212Z", 
     "app_name": "sentry", 
     "migration": "0185_auto__add_savedsearch__add_unique_savedsearch_project_name"
   }
@@ -2779,7 +2779,7 @@
   "pk": 187, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:45.626Z", 
+    "applied": "2018-02-27T17:18:52.335Z", 
     "app_name": "sentry", 
     "migration": "0186_auto__add_field_group_first_release"
   }
@@ -2788,7 +2788,7 @@
   "pk": 188, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:45.776Z", 
+    "applied": "2018-02-27T17:18:52.448Z", 
     "app_name": "sentry", 
     "migration": "0187_auto__add_index_group_project_first_release"
   }
@@ -2797,7 +2797,7 @@
   "pk": 189, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:45.935Z", 
+    "applied": "2018-02-27T17:18:52.568Z", 
     "app_name": "sentry", 
     "migration": "0188_auto__add_userreport"
   }
@@ -2806,7 +2806,7 @@
   "pk": 190, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:46.076Z", 
+    "applied": "2018-02-27T17:18:52.746Z", 
     "app_name": "sentry", 
     "migration": "0189_auto__add_index_userreport_project_event_id"
   }
@@ -2815,7 +2815,7 @@
   "pk": 191, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:46.223Z", 
+    "applied": "2018-02-27T17:18:52.888Z", 
     "app_name": "sentry", 
     "migration": "0190_auto__add_field_release_new_groups"
   }
@@ -2824,7 +2824,7 @@
   "pk": 192, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:46.376Z", 
+    "applied": "2018-02-27T17:18:53.008Z", 
     "app_name": "sentry", 
     "migration": "0191_auto__del_alert__del_alertrelatedgroup__del_unique_alertrelatedgroup_g"
   }
@@ -2833,7 +2833,7 @@
   "pk": 193, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:46.516Z", 
+    "applied": "2018-02-27T17:18:53.138Z", 
     "app_name": "sentry", 
     "migration": "0192_add_model_groupemailthread"
   }
@@ -2842,7 +2842,7 @@
   "pk": 194, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:46.658Z", 
+    "applied": "2018-02-27T17:18:53.258Z", 
     "app_name": "sentry", 
     "migration": "0193_auto__del_unique_groupemailthread_msgid__add_unique_groupemailthread_e"
   }
@@ -2851,7 +2851,7 @@
   "pk": 195, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:46.811Z", 
+    "applied": "2018-02-27T17:18:53.373Z", 
     "app_name": "sentry", 
     "migration": "0194_auto__del_field_project_platform"
   }
@@ -2860,7 +2860,7 @@
   "pk": 196, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:46.967Z", 
+    "applied": "2018-02-27T17:18:53.513Z", 
     "app_name": "sentry", 
     "migration": "0195_auto__chg_field_organization_owner"
   }
@@ -2869,7 +2869,7 @@
   "pk": 197, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:47.102Z", 
+    "applied": "2018-02-27T17:18:53.675Z", 
     "app_name": "sentry", 
     "migration": "0196_auto__del_field_organization_owner"
   }
@@ -2878,7 +2878,7 @@
   "pk": 198, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:47.239Z", 
+    "applied": "2018-02-27T17:18:53.817Z", 
     "app_name": "sentry", 
     "migration": "0197_auto__del_accessgroup__del_unique_accessgroup_team_name"
   }
@@ -2887,7 +2887,7 @@
   "pk": 199, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:47.399Z", 
+    "applied": "2018-02-27T17:18:53.934Z", 
     "app_name": "sentry", 
     "migration": "0198_auto__add_field_release_primary_owner"
   }
@@ -2896,7 +2896,7 @@
   "pk": 200, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:47.542Z", 
+    "applied": "2018-02-27T17:18:54.046Z", 
     "app_name": "sentry", 
     "migration": "0199_auto__add_field_project_first_event"
   }
@@ -2905,7 +2905,7 @@
   "pk": 201, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:47.680Z", 
+    "applied": "2018-02-27T17:18:54.162Z", 
     "app_name": "sentry", 
     "migration": "0200_backfill_first_event"
   }
@@ -2914,7 +2914,7 @@
   "pk": 202, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:47.821Z", 
+    "applied": "2018-02-27T17:18:54.293Z", 
     "app_name": "sentry", 
     "migration": "0201_auto__add_eventuser__add_unique_eventuser_project_ident__add_index_eve"
   }
@@ -2923,7 +2923,7 @@
   "pk": 203, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:47.962Z", 
+    "applied": "2018-02-27T17:18:54.410Z", 
     "app_name": "sentry", 
     "migration": "0202_auto__add_field_eventuser_hash__add_unique_eventuser_project_hash"
   }
@@ -2932,7 +2932,7 @@
   "pk": 204, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:48.134Z", 
+    "applied": "2018-02-27T17:18:54.595Z", 
     "app_name": "sentry", 
     "migration": "0203_auto__chg_field_eventuser_username__chg_field_eventuser_ident"
   }
@@ -2941,7 +2941,7 @@
   "pk": 205, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:48.270Z", 
+    "applied": "2018-02-27T17:18:54.724Z", 
     "app_name": "sentry", 
     "migration": "0204_backfill_team_membership"
   }
@@ -2950,7 +2950,7 @@
   "pk": 206, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:48.435Z", 
+    "applied": "2018-02-27T17:18:54.858Z", 
     "app_name": "sentry", 
     "migration": "0205_auto__add_field_organizationmember_role"
   }
@@ -2959,7 +2959,7 @@
   "pk": 207, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:48.582Z", 
+    "applied": "2018-02-27T17:18:54.970Z", 
     "app_name": "sentry", 
     "migration": "0206_backfill_member_role"
   }
@@ -2968,7 +2968,7 @@
   "pk": 208, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:48.714Z", 
+    "applied": "2018-02-27T17:18:55.096Z", 
     "app_name": "sentry", 
     "migration": "0207_auto__add_field_organization_default_role"
   }
@@ -2977,7 +2977,7 @@
   "pk": 209, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:48.835Z", 
+    "applied": "2018-02-27T17:18:55.205Z", 
     "app_name": "sentry", 
     "migration": "0208_backfill_default_role"
   }
@@ -2986,7 +2986,7 @@
   "pk": 210, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:48.983Z", 
+    "applied": "2018-02-27T17:18:55.329Z", 
     "app_name": "sentry", 
     "migration": "0209_auto__add_broadcastseen__add_unique_broadcastseen_broadcast_user"
   }
@@ -2995,7 +2995,7 @@
   "pk": 211, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:49.132Z", 
+    "applied": "2018-02-27T17:18:55.459Z", 
     "app_name": "sentry", 
     "migration": "0210_auto__del_field_broadcast_badge"
   }
@@ -3004,7 +3004,7 @@
   "pk": 212, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:49.696Z", 
+    "applied": "2018-02-27T17:18:55.988Z", 
     "app_name": "sentry", 
     "migration": "0211_auto__add_field_broadcast_title"
   }
@@ -3013,7 +3013,7 @@
   "pk": 213, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:49.858Z", 
+    "applied": "2018-02-27T17:18:56.154Z", 
     "app_name": "sentry", 
     "migration": "0212_auto__add_fileblob__add_field_file_blob"
   }
@@ -3022,7 +3022,7 @@
   "pk": 214, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:50.002Z", 
+    "applied": "2018-02-27T17:18:56.319Z", 
     "app_name": "sentry", 
     "migration": "0212_auto__add_organizationoption__add_unique_organizationoption_organizati"
   }
@@ -3031,7 +3031,7 @@
   "pk": 215, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:50.202Z", 
+    "applied": "2018-02-27T17:18:56.465Z", 
     "app_name": "sentry", 
     "migration": "0213_migrate_file_blobs"
   }
@@ -3040,7 +3040,7 @@
   "pk": 216, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:50.364Z", 
+    "applied": "2018-02-27T17:18:56.587Z", 
     "app_name": "sentry", 
     "migration": "0214_auto__add_field_broadcast_upstream_id"
   }
@@ -3049,7 +3049,7 @@
   "pk": 217, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:50.638Z", 
+    "applied": "2018-02-27T17:18:56.730Z", 
     "app_name": "sentry", 
     "migration": "0215_auto__add_field_broadcast_date_expires"
   }
@@ -3058,7 +3058,7 @@
   "pk": 218, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:50.831Z", 
+    "applied": "2018-02-27T17:18:56.869Z", 
     "app_name": "sentry", 
     "migration": "0216_auto__add_groupsnooze"
   }
@@ -3067,7 +3067,7 @@
   "pk": 219, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:51.005Z", 
+    "applied": "2018-02-27T17:18:57.012Z", 
     "app_name": "sentry", 
     "migration": "0217_auto__add_groupresolution"
   }
@@ -3076,7 +3076,7 @@
   "pk": 220, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:51.174Z", 
+    "applied": "2018-02-27T17:18:57.167Z", 
     "app_name": "sentry", 
     "migration": "0218_auto__add_field_groupresolution_status"
   }
@@ -3085,7 +3085,7 @@
   "pk": 221, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:51.356Z", 
+    "applied": "2018-02-27T17:18:57.349Z", 
     "app_name": "sentry", 
     "migration": "0219_auto__add_field_groupbookmark_date_added"
   }
@@ -3094,7 +3094,7 @@
   "pk": 222, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:51.523Z", 
+    "applied": "2018-02-27T17:18:57.488Z", 
     "app_name": "sentry", 
     "migration": "0220_auto__del_field_fileblob_storage_options__del_field_fileblob_storage__"
   }
@@ -3103,7 +3103,7 @@
   "pk": 223, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:51.691Z", 
+    "applied": "2018-02-27T17:18:57.644Z", 
     "app_name": "sentry", 
     "migration": "0221_auto__chg_field_user_first_name"
   }
@@ -3112,7 +3112,7 @@
   "pk": 224, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:51.841Z", 
+    "applied": "2018-02-27T17:18:57.789Z", 
     "app_name": "sentry", 
     "migration": "0222_auto__del_field_user_last_name__del_field_user_first_name__add_field_u"
   }
@@ -3121,7 +3121,7 @@
   "pk": 225, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:52.023Z", 
+    "applied": "2018-02-27T17:18:57.938Z", 
     "app_name": "sentry", 
     "migration": "0223_delete_old_sentry_docs_options"
   }
@@ -3130,7 +3130,7 @@
   "pk": 226, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:52.185Z", 
+    "applied": "2018-02-27T17:18:58.087Z", 
     "app_name": "sentry", 
     "migration": "0224_auto__add_index_userreport_project_date_added"
   }
@@ -3139,7 +3139,7 @@
   "pk": 227, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:52.352Z", 
+    "applied": "2018-02-27T17:18:58.246Z", 
     "app_name": "sentry", 
     "migration": "0225_auto__add_fileblobindex__add_unique_fileblobindex_file_blob_offset"
   }
@@ -3148,7 +3148,7 @@
   "pk": 228, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:52.511Z", 
+    "applied": "2018-02-27T17:18:58.387Z", 
     "app_name": "sentry", 
     "migration": "0226_backfill_file_size"
   }
@@ -3157,7 +3157,7 @@
   "pk": 229, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:52.671Z", 
+    "applied": "2018-02-27T17:18:58.533Z", 
     "app_name": "sentry", 
     "migration": "0227_auto__del_field_activity_event"
   }
@@ -3166,7 +3166,7 @@
   "pk": 230, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:52.846Z", 
+    "applied": "2018-02-27T17:18:58.667Z", 
     "app_name": "sentry", 
     "migration": "0228_auto__del_field_event_num_comments"
   }
@@ -3175,7 +3175,7 @@
   "pk": 231, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:53.028Z", 
+    "applied": "2018-02-27T17:18:58.844Z", 
     "app_name": "sentry", 
     "migration": "0229_drop_event_constraints"
   }
@@ -3184,7 +3184,7 @@
   "pk": 232, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:53.181Z", 
+    "applied": "2018-02-27T17:18:58.992Z", 
     "app_name": "sentry", 
     "migration": "0230_auto__del_field_eventmapping_group__del_field_eventmapping_project__ad"
   }
@@ -3193,7 +3193,7 @@
   "pk": 233, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:53.353Z", 
+    "applied": "2018-02-27T17:18:59.145Z", 
     "app_name": "sentry", 
     "migration": "0231_auto__add_field_savedsearch_is_default"
   }
@@ -3202,7 +3202,7 @@
   "pk": 234, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:53.509Z", 
+    "applied": "2018-02-27T17:18:59.282Z", 
     "app_name": "sentry", 
     "migration": "0232_default_savedsearch"
   }
@@ -3211,7 +3211,7 @@
   "pk": 235, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:53.663Z", 
+    "applied": "2018-02-27T17:18:59.425Z", 
     "app_name": "sentry", 
     "migration": "0233_add_new_savedsearch"
   }
@@ -3220,7 +3220,7 @@
   "pk": 236, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:53.859Z", 
+    "applied": "2018-02-27T17:18:59.596Z", 
     "app_name": "sentry", 
     "migration": "0234_auto__add_savedsearchuserdefault__add_unique_savedsearchuserdefault_pr"
   }
@@ -3229,7 +3229,7 @@
   "pk": 237, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:54.047Z", 
+    "applied": "2018-02-27T17:18:59.761Z", 
     "app_name": "sentry", 
     "migration": "0235_auto__add_projectbookmark__add_unique_projectbookmark_project_id_user_"
   }
@@ -3238,7 +3238,7 @@
   "pk": 238, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:54.235Z", 
+    "applied": "2018-02-27T17:18:59.933Z", 
     "app_name": "sentry", 
     "migration": "0236_auto__add_organizationonboardingtask__add_unique_organizationonboardin"
   }
@@ -3247,7 +3247,7 @@
   "pk": 239, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:54.417Z", 
+    "applied": "2018-02-27T17:19:00.108Z", 
     "app_name": "sentry", 
     "migration": "0237_auto__add_eventtag__add_unique_eventtag_event_id_key_id_value_id"
   }
@@ -3256,7 +3256,7 @@
   "pk": 240, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:54.594Z", 
+    "applied": "2018-02-27T17:19:00.269Z", 
     "app_name": "sentry", 
     "migration": "0238_fill_org_onboarding_tasks"
   }
@@ -3265,7 +3265,7 @@
   "pk": 241, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:54.803Z", 
+    "applied": "2018-02-27T17:19:00.459Z", 
     "app_name": "sentry", 
     "migration": "0239_auto__add_projectdsymfile__add_unique_projectdsymfile_project_uuid__ad"
   }
@@ -3274,7 +3274,7 @@
   "pk": 242, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:54.996Z", 
+    "applied": "2018-02-27T17:19:00.625Z", 
     "app_name": "sentry", 
     "migration": "0240_fill_onboarding_option"
   }
@@ -3283,7 +3283,7 @@
   "pk": 243, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:55.194Z", 
+    "applied": "2018-02-27T17:19:00.807Z", 
     "app_name": "sentry", 
     "migration": "0241_auto__add_counter__add_unique_counter_project_ident__add_field_group_s"
   }
@@ -3292,7 +3292,7 @@
   "pk": 244, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:55.393Z", 
+    "applied": "2018-02-27T17:19:00.985Z", 
     "app_name": "sentry", 
     "migration": "0242_auto__add_field_project_forced_color"
   }
@@ -3301,7 +3301,7 @@
   "pk": 245, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:55.578Z", 
+    "applied": "2018-02-27T17:19:01.189Z", 
     "app_name": "sentry", 
     "migration": "0243_remove_inactive_members"
   }
@@ -3310,7 +3310,7 @@
   "pk": 246, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:55.790Z", 
+    "applied": "2018-02-27T17:19:01.398Z", 
     "app_name": "sentry", 
     "migration": "0244_auto__add_groupredirect"
   }
@@ -3319,7 +3319,7 @@
   "pk": 247, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:55.992Z", 
+    "applied": "2018-02-27T17:19:01.607Z", 
     "app_name": "sentry", 
     "migration": "0245_auto__del_field_project_callsign__del_unique_project_organization_call"
   }
@@ -3328,7 +3328,7 @@
   "pk": 248, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:56.229Z", 
+    "applied": "2018-02-27T17:19:01.839Z", 
     "app_name": "sentry", 
     "migration": "0246_auto__add_dsymsymbol__add_unique_dsymsymbol_object_address__add_dsymsd"
   }
@@ -3337,7 +3337,7 @@
   "pk": 249, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:56.448Z", 
+    "applied": "2018-02-27T17:19:02.037Z", 
     "app_name": "sentry", 
     "migration": "0247_migrate_file_blobs"
   }
@@ -3346,7 +3346,7 @@
   "pk": 250, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:56.663Z", 
+    "applied": "2018-02-27T17:19:02.230Z", 
     "app_name": "sentry", 
     "migration": "0248_auto__add_projectplatform__add_unique_projectplatform_project_id_platf"
   }
@@ -3355,7 +3355,7 @@
   "pk": 251, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:56.919Z", 
+    "applied": "2018-02-27T17:19:02.419Z", 
     "app_name": "sentry", 
     "migration": "0249_auto__add_index_eventtag_project_id_key_id_value_id"
   }
@@ -3364,7 +3364,7 @@
   "pk": 252, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:57.168Z", 
+    "applied": "2018-02-27T17:19:02.611Z", 
     "app_name": "sentry", 
     "migration": "0250_auto__add_unique_userreport_project_event_id"
   }
@@ -3373,7 +3373,7 @@
   "pk": 253, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:57.413Z", 
+    "applied": "2018-02-27T17:19:02.830Z", 
     "app_name": "sentry", 
     "migration": "0251_auto__add_useravatar"
   }
@@ -3382,7 +3382,7 @@
   "pk": 254, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:58.138Z", 
+    "applied": "2018-02-27T17:19:03.502Z", 
     "app_name": "sentry", 
     "migration": "0252_default_users_to_gravatar"
   }
@@ -3391,7 +3391,7 @@
   "pk": 255, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:58.366Z", 
+    "applied": "2018-02-27T17:19:03.696Z", 
     "app_name": "sentry", 
     "migration": "0253_auto__add_field_eventtag_group_id"
   }
@@ -3400,7 +3400,7 @@
   "pk": 256, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:58.655Z", 
+    "applied": "2018-02-27T17:19:03.899Z", 
     "app_name": "sentry", 
     "migration": "0254_auto__add_index_eventtag_group_id_key_id_value_id"
   }
@@ -3409,7 +3409,7 @@
   "pk": 257, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:58.891Z", 
+    "applied": "2018-02-27T17:19:04.107Z", 
     "app_name": "sentry", 
     "migration": "0255_auto__add_apitoken"
   }
@@ -3418,7 +3418,7 @@
   "pk": 258, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:59.125Z", 
+    "applied": "2018-02-27T17:19:04.314Z", 
     "app_name": "sentry", 
     "migration": "0256_auto__add_authenticator"
   }
@@ -3427,7 +3427,7 @@
   "pk": 259, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:59.348Z", 
+    "applied": "2018-02-27T17:19:04.518Z", 
     "app_name": "sentry", 
     "migration": "0257_repair_activity"
   }
@@ -3436,7 +3436,7 @@
   "pk": 260, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:59.612Z", 
+    "applied": "2018-02-27T17:19:04.730Z", 
     "app_name": "sentry", 
     "migration": "0258_auto__add_field_user_is_password_expired__add_field_user_last_password"
   }
@@ -3445,7 +3445,7 @@
   "pk": 261, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:39:59.863Z", 
+    "applied": "2018-02-27T17:19:04.951Z", 
     "app_name": "sentry", 
     "migration": "0259_auto__add_useremail__add_unique_useremail_user_email"
   }
@@ -3454,7 +3454,7 @@
   "pk": 262, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:00.116Z", 
+    "applied": "2018-02-27T17:19:05.167Z", 
     "app_name": "sentry", 
     "migration": "0260_populate_email_addresses"
   }
@@ -3463,7 +3463,7 @@
   "pk": 263, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:00.375Z", 
+    "applied": "2018-02-27T17:19:05.398Z", 
     "app_name": "sentry", 
     "migration": "0261_auto__add_groupsubscription__add_unique_groupsubscription_group_user"
   }
@@ -3472,7 +3472,7 @@
   "pk": 264, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:00.655Z", 
+    "applied": "2018-02-27T17:19:05.626Z", 
     "app_name": "sentry", 
     "migration": "0262_fix_tag_indexes"
   }
@@ -3481,7 +3481,7 @@
   "pk": 265, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:00.908Z", 
+    "applied": "2018-02-27T17:19:05.850Z", 
     "app_name": "sentry", 
     "migration": "0263_remove_default_regression_rule"
   }
@@ -3490,7 +3490,7 @@
   "pk": 266, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:01.148Z", 
+    "applied": "2018-02-27T17:19:06.060Z", 
     "app_name": "sentry", 
     "migration": "0264_drop_grouptagvalue_project_index"
   }
@@ -3499,7 +3499,7 @@
   "pk": 267, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:01.405Z", 
+    "applied": "2018-02-27T17:19:06.285Z", 
     "app_name": "sentry", 
     "migration": "0265_auto__add_field_rule_status"
   }
@@ -3508,7 +3508,7 @@
   "pk": 268, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:01.680Z", 
+    "applied": "2018-02-27T17:19:06.524Z", 
     "app_name": "sentry", 
     "migration": "0266_auto__add_grouprelease__add_unique_grouprelease_group_id_release_id_en"
   }
@@ -3517,7 +3517,7 @@
   "pk": 269, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:01.971Z", 
+    "applied": "2018-02-27T17:19:06.799Z", 
     "app_name": "sentry", 
     "migration": "0267_auto__add_environment__add_unique_environment_project_id_name__add_rel"
   }
@@ -3526,7 +3526,7 @@
   "pk": 270, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:02.234Z", 
+    "applied": "2018-02-27T17:19:07.070Z", 
     "app_name": "sentry", 
     "migration": "0268_fill_environment"
   }
@@ -3535,7 +3535,7 @@
   "pk": 271, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:02.494Z", 
+    "applied": "2018-02-27T17:19:07.442Z", 
     "app_name": "sentry", 
     "migration": "0269_auto__del_helppage"
   }
@@ -3544,7 +3544,7 @@
   "pk": 272, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:02.785Z", 
+    "applied": "2018-02-27T17:19:07.781Z", 
     "app_name": "sentry", 
     "migration": "0270_auto__add_field_organizationmember_token"
   }
@@ -3553,7 +3553,7 @@
   "pk": 273, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:03.044Z", 
+    "applied": "2018-02-27T17:19:08.061Z", 
     "app_name": "sentry", 
     "migration": "0271_auto__del_field_organizationmember_counter"
   }
@@ -3562,7 +3562,7 @@
   "pk": 274, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:03.298Z", 
+    "applied": "2018-02-27T17:19:08.300Z", 
     "app_name": "sentry", 
     "migration": "0272_auto__add_unique_authenticator_user_type"
   }
@@ -3571,7 +3571,7 @@
   "pk": 275, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:03.621Z", 
+    "applied": "2018-02-27T17:19:08.593Z", 
     "app_name": "sentry", 
     "migration": "0273_auto__add_repository__add_unique_repository_organization_id_name__add_"
   }
@@ -3580,7 +3580,7 @@
   "pk": 276, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:03.909Z", 
+    "applied": "2018-02-27T17:19:08.843Z", 
     "app_name": "sentry", 
     "migration": "0274_auto__add_index_commit_repository_id_date_added"
   }
@@ -3589,7 +3589,7 @@
   "pk": 277, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:04.179Z", 
+    "applied": "2018-02-27T17:19:09.094Z", 
     "app_name": "sentry", 
     "migration": "0275_auto__del_index_grouptagvalue_project_key_value__add_index_grouptagval"
   }
@@ -3598,7 +3598,7 @@
   "pk": 278, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:04.454Z", 
+    "applied": "2018-02-27T17:19:09.361Z", 
     "app_name": "sentry", 
     "migration": "0276_auto__add_field_user_session_nonce"
   }
@@ -3607,7 +3607,7 @@
   "pk": 279, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:04.786Z", 
+    "applied": "2018-02-27T17:19:09.667Z", 
     "app_name": "sentry", 
     "migration": "0277_auto__add_commitfilechange__add_unique_commitfilechange_commit_filenam"
   }
@@ -3616,7 +3616,7 @@
   "pk": 280, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:05.094Z", 
+    "applied": "2018-02-27T17:19:09.956Z", 
     "app_name": "sentry", 
     "migration": "0278_auto__add_releaseproject__add_unique_releaseproject_project_release__a"
   }
@@ -3625,7 +3625,7 @@
   "pk": 281, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:05.393Z", 
+    "applied": "2018-02-27T17:19:10.222Z", 
     "app_name": "sentry", 
     "migration": "0279_populate_release_orgs_and_projects"
   }
@@ -3634,7 +3634,7 @@
   "pk": 282, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:05.691Z", 
+    "applied": "2018-02-27T17:19:10.481Z", 
     "app_name": "sentry", 
     "migration": "0280_auto__add_field_releasecommit_organization_id"
   }
@@ -3643,7 +3643,7 @@
   "pk": 283, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:05.977Z", 
+    "applied": "2018-02-27T17:19:10.763Z", 
     "app_name": "sentry", 
     "migration": "0281_populate_release_commit_organization_id"
   }
@@ -3652,7 +3652,7 @@
   "pk": 284, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:06.273Z", 
+    "applied": "2018-02-27T17:19:11.033Z", 
     "app_name": "sentry", 
     "migration": "0282_auto__add_field_releasefile_organization__add_field_releaseenvironment"
   }
@@ -3661,7 +3661,7 @@
   "pk": 285, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:06.566Z", 
+    "applied": "2018-02-27T17:19:11.316Z", 
     "app_name": "sentry", 
     "migration": "0283_populate_release_environment_and_release_file_organization"
   }
@@ -3670,7 +3670,7 @@
   "pk": 286, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:06.971Z", 
+    "applied": "2018-02-27T17:19:11.645Z", 
     "app_name": "sentry", 
     "migration": "0284_auto__del_field_release_project__add_field_release_project_id__chg_fie"
   }
@@ -3679,7 +3679,7 @@
   "pk": 287, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:07.271Z", 
+    "applied": "2018-02-27T17:19:11.927Z", 
     "app_name": "sentry", 
     "migration": "0285_auto__chg_field_release_project_id__chg_field_releasefile_project_id"
   }
@@ -3688,7 +3688,7 @@
   "pk": 288, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:07.575Z", 
+    "applied": "2018-02-27T17:19:12.203Z", 
     "app_name": "sentry", 
     "migration": "0286_drop_project_fk_release_release_file"
   }
@@ -3697,7 +3697,7 @@
   "pk": 289, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:07.865Z", 
+    "applied": "2018-02-27T17:19:12.476Z", 
     "app_name": "sentry", 
     "migration": "0287_auto__add_field_releaseproject_new_groups"
   }
@@ -3706,7 +3706,7 @@
   "pk": 290, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:08.152Z", 
+    "applied": "2018-02-27T17:19:12.745Z", 
     "app_name": "sentry", 
     "migration": "0288_set_release_project_new_groups_to_zero"
   }
@@ -3715,7 +3715,7 @@
   "pk": 291, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:08.504Z", 
+    "applied": "2018-02-27T17:19:13.119Z", 
     "app_name": "sentry", 
     "migration": "0289_auto__add_organizationavatar"
   }
@@ -3724,7 +3724,7 @@
   "pk": 292, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:08.812Z", 
+    "applied": "2018-02-27T17:19:13.393Z", 
     "app_name": "sentry", 
     "migration": "0290_populate_release_project_new_groups"
   }
@@ -3733,7 +3733,7 @@
   "pk": 293, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:09.117Z", 
+    "applied": "2018-02-27T17:19:13.713Z", 
     "app_name": "sentry", 
     "migration": "0291_merge_legacy_releases"
   }
@@ -3742,7 +3742,7 @@
   "pk": 294, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:10.098Z", 
+    "applied": "2018-02-27T17:19:14.651Z", 
     "app_name": "sentry", 
     "migration": "0292_auto__add_unique_release_organization_version"
   }
@@ -3751,7 +3751,7 @@
   "pk": 295, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:10.421Z", 
+    "applied": "2018-02-27T17:19:14.944Z", 
     "app_name": "sentry", 
     "migration": "0293_auto__del_unique_release_project_id_version"
   }
@@ -3760,7 +3760,7 @@
   "pk": 296, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:10.768Z", 
+    "applied": "2018-02-27T17:19:15.233Z", 
     "app_name": "sentry", 
     "migration": "0294_auto__add_groupcommitresolution__add_unique_groupcommitresolution_grou"
   }
@@ -3769,7 +3769,7 @@
   "pk": 297, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:11.117Z", 
+    "applied": "2018-02-27T17:19:15.545Z", 
     "app_name": "sentry", 
     "migration": "0295_auto__add_environmentproject__add_unique_environmentproject_project_en"
   }
@@ -3778,7 +3778,7 @@
   "pk": 298, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:11.483Z", 
+    "applied": "2018-02-27T17:19:15.841Z", 
     "app_name": "sentry", 
     "migration": "0296_populate_environment_organization_and_projects"
   }
@@ -3787,7 +3787,7 @@
   "pk": 299, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:11.818Z", 
+    "applied": "2018-02-27T17:19:16.156Z", 
     "app_name": "sentry", 
     "migration": "0297_auto__add_field_project_flags"
   }
@@ -3796,7 +3796,7 @@
   "pk": 300, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:12.127Z", 
+    "applied": "2018-02-27T17:19:16.450Z", 
     "app_name": "sentry", 
     "migration": "0298_backfill_project_has_releases"
   }
@@ -3805,7 +3805,7 @@
   "pk": 301, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:12.456Z", 
+    "applied": "2018-02-27T17:19:16.753Z", 
     "app_name": "sentry", 
     "migration": "0299_auto__chg_field_environment_organization_id"
   }
@@ -3814,7 +3814,7 @@
   "pk": 302, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:12.846Z", 
+    "applied": "2018-02-27T17:19:17.122Z", 
     "app_name": "sentry", 
     "migration": "0300_auto__add_processingissue__add_unique_processingissue_project_checksum"
   }
@@ -3823,7 +3823,7 @@
   "pk": 303, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:13.210Z", 
+    "applied": "2018-02-27T17:19:17.513Z", 
     "app_name": "sentry", 
     "migration": "0301_auto__chg_field_environment_project_id__chg_field_releaseenvironment_p"
   }
@@ -3832,7 +3832,7 @@
   "pk": 304, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:13.576Z", 
+    "applied": "2018-02-27T17:19:17.831Z", 
     "app_name": "sentry", 
     "migration": "0302_merge_environments"
   }
@@ -3841,7 +3841,7 @@
   "pk": 305, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:13.917Z", 
+    "applied": "2018-02-27T17:19:18.162Z", 
     "app_name": "sentry", 
     "migration": "0303_fix_release_new_group_counts"
   }
@@ -3850,7 +3850,7 @@
   "pk": 306, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:14.279Z", 
+    "applied": "2018-02-27T17:19:18.507Z", 
     "app_name": "sentry", 
     "migration": "0304_auto__add_deploy"
   }
@@ -3859,7 +3859,7 @@
   "pk": 307, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:14.639Z", 
+    "applied": "2018-02-27T17:19:18.844Z", 
     "app_name": "sentry", 
     "migration": "0305_auto__chg_field_authidentity_data__chg_field_useroption_value__chg_fie"
   }
@@ -3868,7 +3868,7 @@
   "pk": 308, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:15.085Z", 
+    "applied": "2018-02-27T17:19:19.246Z", 
     "app_name": "sentry", 
     "migration": "0306_auto__add_apigrant__add_apiauthorization__add_unique_apiauthorization_"
   }
@@ -3877,7 +3877,7 @@
   "pk": 309, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:15.498Z", 
+    "applied": "2018-02-27T17:19:19.608Z", 
     "app_name": "sentry", 
     "migration": "0307_auto__add_field_apigrant_scope_list__add_field_apitoken_scope_list__ad"
   }
@@ -3886,7 +3886,7 @@
   "pk": 310, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:15.912Z", 
+    "applied": "2018-02-27T17:19:20.001Z", 
     "app_name": "sentry", 
     "migration": "0308_auto__add_versiondsymfile__add_unique_versiondsymfile_dsym_file_versio"
   }
@@ -3895,7 +3895,7 @@
   "pk": 311, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:16.333Z", 
+    "applied": "2018-02-27T17:19:20.357Z", 
     "app_name": "sentry", 
     "migration": "0308_backfill_scopes_list"
   }
@@ -3904,7 +3904,7 @@
   "pk": 312, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:16.734Z", 
+    "applied": "2018-02-27T17:19:20.708Z", 
     "app_name": "sentry", 
     "migration": "0309_fix_application_state"
   }
@@ -3913,7 +3913,7 @@
   "pk": 313, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:17.187Z", 
+    "applied": "2018-02-27T17:19:21.104Z", 
     "app_name": "sentry", 
     "migration": "0310_auto__add_field_savedsearch_owner"
   }
@@ -3922,7 +3922,7 @@
   "pk": 314, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:17.689Z", 
+    "applied": "2018-02-27T17:19:21.491Z", 
     "app_name": "sentry", 
     "migration": "0311_auto__add_releaseheadcommit__add_unique_releaseheadcommit_repository_i"
   }
@@ -3931,7 +3931,7 @@
   "pk": 315, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:18.245Z", 
+    "applied": "2018-02-27T17:19:21.861Z", 
     "app_name": "sentry", 
     "migration": "0312_create_missing_emails"
   }
@@ -3940,7 +3940,7 @@
   "pk": 316, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:18.763Z", 
+    "applied": "2018-02-27T17:19:22.248Z", 
     "app_name": "sentry", 
     "migration": "0313_auto__add_field_commitauthor_external_id__add_unique_commitauthor_orga"
   }
@@ -3949,7 +3949,7 @@
   "pk": 317, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:19.291Z", 
+    "applied": "2018-02-27T17:19:22.657Z", 
     "app_name": "sentry", 
     "migration": "0314_auto__add_distribution__add_unique_distribution_release_name__add_fiel"
   }
@@ -3958,7 +3958,7 @@
   "pk": 318, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:19.771Z", 
+    "applied": "2018-02-27T17:19:23.114Z", 
     "app_name": "sentry", 
     "migration": "0315_auto__add_field_useroption_organization__add_unique_useroption_user_or"
   }
@@ -3967,7 +3967,7 @@
   "pk": 319, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:20.260Z", 
+    "applied": "2018-02-27T17:19:23.525Z", 
     "app_name": "sentry", 
     "migration": "0316_auto__del_field_grouptagvalue_project__del_field_grouptagvalue_group__"
   }
@@ -3976,7 +3976,7 @@
   "pk": 320, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:20.768Z", 
+    "applied": "2018-02-27T17:19:23.925Z", 
     "app_name": "sentry", 
     "migration": "0317_drop_grouptagvalue_constraints"
   }
@@ -3985,7 +3985,7 @@
   "pk": 321, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:21.275Z", 
+    "applied": "2018-02-27T17:19:24.317Z", 
     "app_name": "sentry", 
     "migration": "0318_auto__add_field_deploy_notified"
   }
@@ -3994,7 +3994,7 @@
   "pk": 322, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:21.780Z", 
+    "applied": "2018-02-27T17:19:24.711Z", 
     "app_name": "sentry", 
     "migration": "0319_auto__add_index_deploy_notified"
   }
@@ -4003,7 +4003,7 @@
   "pk": 323, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:22.270Z", 
+    "applied": "2018-02-27T17:19:25.103Z", 
     "app_name": "sentry", 
     "migration": "0320_auto__add_index_eventtag_date_added"
   }
@@ -4012,7 +4012,7 @@
   "pk": 324, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:22.822Z", 
+    "applied": "2018-02-27T17:19:25.496Z", 
     "app_name": "sentry", 
     "migration": "0321_auto__add_field_projectkey_rate_limit_count__add_field_projectkey_rate"
   }
@@ -4021,7 +4021,7 @@
   "pk": 325, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:23.316Z", 
+    "applied": "2018-02-27T17:19:25.983Z", 
     "app_name": "sentry", 
     "migration": "0321_auto__add_unique_environment_organization_id_name"
   }
@@ -4030,7 +4030,7 @@
   "pk": 326, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:23.953Z", 
+    "applied": "2018-02-27T17:19:26.386Z", 
     "app_name": "sentry", 
     "migration": "0322_merge_0321_migrations"
   }
@@ -4039,7 +4039,7 @@
   "pk": 327, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:24.628Z", 
+    "applied": "2018-02-27T17:19:26.827Z", 
     "app_name": "sentry", 
     "migration": "0323_auto__add_unique_releaseenvironment_organization_id_release_id_environ"
   }
@@ -4048,7 +4048,7 @@
   "pk": 328, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:25.606Z", 
+    "applied": "2018-02-27T17:19:27.405Z", 
     "app_name": "sentry", 
     "migration": "0324_auto__add_field_eventuser_name__add_field_userreport_event_user_id"
   }
@@ -4057,7 +4057,7 @@
   "pk": 329, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:26.688Z", 
+    "applied": "2018-02-27T17:19:27.893Z", 
     "app_name": "sentry", 
     "migration": "0325_auto__add_scheduleddeletion__add_unique_scheduleddeletion_app_label_mo"
   }
@@ -4066,7 +4066,7 @@
   "pk": 330, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:27.369Z", 
+    "applied": "2018-02-27T17:19:28.335Z", 
     "app_name": "sentry", 
     "migration": "0326_auto__add_field_groupsnooze_count__add_field_groupsnooze_window__add_f"
   }
@@ -4075,7 +4075,7 @@
   "pk": 331, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:27.901Z", 
+    "applied": "2018-02-27T17:19:28.787Z", 
     "app_name": "sentry", 
     "migration": "0327_auto__add_field_release_commit_count__add_field_release_last_commit_id"
   }
@@ -4084,7 +4084,7 @@
   "pk": 332, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:28.501Z", 
+    "applied": "2018-02-27T17:19:29.283Z", 
     "app_name": "sentry", 
     "migration": "0328_backfill_release_stats"
   }
@@ -4093,7 +4093,7 @@
   "pk": 333, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:29.067Z", 
+    "applied": "2018-02-27T17:19:29.727Z", 
     "app_name": "sentry", 
     "migration": "0329_auto__del_dsymsymbol__del_unique_dsymsymbol_object_address__del_global"
   }
@@ -4102,7 +4102,7 @@
   "pk": 334, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:30.425Z", 
+    "applied": "2018-02-27T17:19:30.907Z", 
     "app_name": "sentry", 
     "migration": "0330_auto__add_field_grouphash_state"
   }
@@ -4111,7 +4111,7 @@
   "pk": 335, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:30.964Z", 
+    "applied": "2018-02-27T17:19:31.318Z", 
     "app_name": "sentry", 
     "migration": "0331_auto__del_index_releasecommit_project_id__del_index_releaseenvironment"
   }
@@ -4120,7 +4120,7 @@
   "pk": 336, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:31.488Z", 
+    "applied": "2018-02-27T17:19:31.744Z", 
     "app_name": "sentry", 
     "migration": "0332_auto__add_featureadoption__add_unique_featureadoption_organization_fea"
   }
@@ -4129,7 +4129,7 @@
   "pk": 337, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:32.006Z", 
+    "applied": "2018-02-27T17:19:32.142Z", 
     "app_name": "sentry", 
     "migration": "0333_auto__add_field_groupresolution_type__add_field_groupresolution_actor_"
   }
@@ -4138,7 +4138,7 @@
   "pk": 338, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:32.505Z", 
+    "applied": "2018-02-27T17:19:32.547Z", 
     "app_name": "sentry", 
     "migration": "0334_auto__add_field_project_platform"
   }
@@ -4147,7 +4147,7 @@
   "pk": 339, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:33.001Z", 
+    "applied": "2018-02-27T17:19:32.974Z", 
     "app_name": "sentry", 
     "migration": "0334_auto__add_scheduledjob"
   }
@@ -4156,7 +4156,7 @@
   "pk": 340, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:33.470Z", 
+    "applied": "2018-02-27T17:19:33.377Z", 
     "app_name": "sentry", 
     "migration": "0335_auto__add_field_groupsnooze_actor_id"
   }
@@ -4165,7 +4165,7 @@
   "pk": 341, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:33.982Z", 
+    "applied": "2018-02-27T17:19:33.792Z", 
     "app_name": "sentry", 
     "migration": "0336_auto__add_field_user_last_active"
   }
@@ -4174,7 +4174,7 @@
   "pk": 342, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:34.469Z", 
+    "applied": "2018-02-27T17:19:34.263Z", 
     "app_name": "sentry", 
     "migration": "0337_fix_out_of_order_migrations"
   }
@@ -4183,7 +4183,7 @@
   "pk": 343, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:35.012Z", 
+    "applied": "2018-02-27T17:19:34.675Z", 
     "app_name": "sentry", 
     "migration": "0338_fix_null_user_last_active"
   }
@@ -4192,7 +4192,7 @@
   "pk": 344, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:35.540Z", 
+    "applied": "2018-02-27T17:19:35.089Z", 
     "app_name": "sentry", 
     "migration": "0339_backfill_first_project_feature"
   }
@@ -4201,7 +4201,7 @@
   "pk": 345, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:36.197Z", 
+    "applied": "2018-02-27T17:19:35.539Z", 
     "app_name": "sentry", 
     "migration": "0340_auto__add_grouptombstone__add_field_grouphash_group_tombstone_id"
   }
@@ -4210,7 +4210,7 @@
   "pk": 346, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:36.862Z", 
+    "applied": "2018-02-27T17:19:36.037Z", 
     "app_name": "sentry", 
     "migration": "0341_auto__add_organizationintegration__add_unique_organizationintegration_"
   }
@@ -4219,7 +4219,7 @@
   "pk": 347, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:37.451Z", 
+    "applied": "2018-02-27T17:19:36.485Z", 
     "app_name": "sentry", 
     "migration": "0342_projectplatform"
   }
@@ -4228,7 +4228,7 @@
   "pk": 348, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:37.988Z", 
+    "applied": "2018-02-27T17:19:36.939Z", 
     "app_name": "sentry", 
     "migration": "0343_auto__add_index_groupcommitresolution_commit_id"
   }
@@ -4237,7 +4237,7 @@
   "pk": 349, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:38.625Z", 
+    "applied": "2018-02-27T17:19:37.477Z", 
     "app_name": "sentry", 
     "migration": "0344_add_index_ProjectPlatform_last_seen"
   }
@@ -4246,7 +4246,7 @@
   "pk": 350, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:39.184Z", 
+    "applied": "2018-02-27T17:19:37.983Z", 
     "app_name": "sentry", 
     "migration": "0345_add_citext"
   }
@@ -4255,7 +4255,7 @@
   "pk": 351, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:39.706Z", 
+    "applied": "2018-02-27T17:19:38.575Z", 
     "app_name": "sentry", 
     "migration": "0346_auto__del_field_tagkey_project__add_field_tagkey_project_id__del_uniqu"
   }
@@ -4264,7 +4264,7 @@
   "pk": 352, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:40.283Z", 
+    "applied": "2018-02-27T17:19:39.113Z", 
     "app_name": "sentry", 
     "migration": "0347_auto__add_index_grouptagvalue_project_id__add_index_grouptagvalue_grou"
   }
@@ -4273,7 +4273,7 @@
   "pk": 353, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:40.880Z", 
+    "applied": "2018-02-27T17:19:39.574Z", 
     "app_name": "sentry", 
     "migration": "0348_fix_project_key_rate_limit_window_unit"
   }
@@ -4282,7 +4282,7 @@
   "pk": 354, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:41.473Z", 
+    "applied": "2018-02-27T17:19:40.055Z", 
     "app_name": "sentry", 
     "migration": "0349_drop_constraints_filterkey_filtervalue_grouptagkey"
   }
@@ -4291,7 +4291,7 @@
   "pk": 355, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:42.053Z", 
+    "applied": "2018-02-27T17:19:40.539Z", 
     "app_name": "sentry", 
     "migration": "0350_auto__add_email"
   }
@@ -4300,7 +4300,7 @@
   "pk": 356, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:42.636Z", 
+    "applied": "2018-02-27T17:19:41.005Z", 
     "app_name": "sentry", 
     "migration": "0351_backfillemail"
   }
@@ -4309,7 +4309,7 @@
   "pk": 357, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:43.139Z", 
+    "applied": "2018-02-27T17:19:41.496Z", 
     "app_name": "sentry", 
     "migration": "0352_add_index_release_coalesce_date_released_date_added"
   }
@@ -4318,7 +4318,7 @@
   "pk": 358, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:43.675Z", 
+    "applied": "2018-02-27T17:19:41.981Z", 
     "app_name": "sentry", 
     "migration": "0353_auto__del_field_eventuser_project__add_field_eventuser_project_id__del"
   }
@@ -4327,7 +4327,7 @@
   "pk": 359, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:44.193Z", 
+    "applied": "2018-02-27T17:19:42.453Z", 
     "app_name": "sentry", 
     "migration": "0354_auto__chg_field_commitfilechange_filename"
   }
@@ -4336,7 +4336,7 @@
   "pk": 360, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:44.804Z", 
+    "applied": "2018-02-27T17:19:42.963Z", 
     "app_name": "sentry", 
     "migration": "0355_auto__add_field_organizationintegration_config__add_field_organization"
   }
@@ -4345,7 +4345,7 @@
   "pk": 361, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:45.477Z", 
+    "applied": "2018-02-27T17:19:43.496Z", 
     "app_name": "sentry", 
     "migration": "0356_auto__add_useridentity__add_unique_useridentity_user_identity__add_ide"
   }
@@ -4354,7 +4354,7 @@
   "pk": 362, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:46.099Z", 
+    "applied": "2018-02-27T17:19:44.061Z", 
     "app_name": "sentry", 
     "migration": "0357_auto__add_projectteam__add_unique_projectteam_project_team"
   }
@@ -4363,7 +4363,7 @@
   "pk": 363, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:48.018Z", 
+    "applied": "2018-02-27T17:19:45.531Z", 
     "app_name": "nodestore", 
     "migration": "0001_initial"
   }
@@ -4372,7 +4372,7 @@
   "pk": 364, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:48.663Z", 
+    "applied": "2018-02-27T17:19:45.915Z", 
     "app_name": "search", 
     "migration": "0001_initial"
   }
@@ -4381,7 +4381,7 @@
   "pk": 365, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:48.731Z", 
+    "applied": "2018-02-27T17:19:45.947Z", 
     "app_name": "search", 
     "migration": "0002_auto__del_searchtoken__del_unique_searchtoken_document_field_token__de"
   }
@@ -4390,7 +4390,7 @@
   "pk": 366, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:49.393Z", 
+    "applied": "2018-02-27T17:19:46.348Z", 
     "app_name": "social_auth", 
     "migration": "0001_initial"
   }
@@ -4399,7 +4399,7 @@
   "pk": 367, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:49.604Z", 
+    "applied": "2018-02-27T17:19:46.537Z", 
     "app_name": "social_auth", 
     "migration": "0002_auto__add_unique_nonce_timestamp_salt_server_url__add_unique_associati"
   }
@@ -4408,7 +4408,7 @@
   "pk": 368, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:49.661Z", 
+    "applied": "2018-02-27T17:19:46.571Z", 
     "app_name": "social_auth", 
     "migration": "0003_auto__del_nonce__del_unique_nonce_server_url_timestamp_salt__del_assoc"
   }
@@ -4417,7 +4417,7 @@
   "pk": 369, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:49.700Z", 
+    "applied": "2018-02-27T17:19:46.599Z", 
     "app_name": "social_auth", 
     "migration": "0004_auto__del_unique_usersocialauth_provider_uid__add_unique_usersocialaut"
   }
@@ -4426,7 +4426,7 @@
   "pk": 370, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:51.485Z", 
+    "applied": "2018-02-27T17:19:48.136Z", 
     "app_name": "jira_ac", 
     "migration": "0001_initial"
   }
@@ -4435,7 +4435,7 @@
   "pk": 371, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:51.868Z", 
+    "applied": "2018-02-27T17:19:48.460Z", 
     "app_name": "hipchat_ac", 
     "migration": "0001_initial"
   }
@@ -4444,7 +4444,7 @@
   "pk": 372, 
   "model": "south.migrationhistory", 
   "fields": {
-    "applied": "2018-01-26T13:40:51.923Z", 
+    "applied": "2018-02-27T17:19:48.510Z", 
     "app_name": "hipchat_ac", 
     "migration": "0002_auto__del_mentionedevent"
   }
@@ -4457,7 +4457,7 @@
     "name": "Sentry", 
     "default_role": "member", 
     "flags": "1", 
-    "date_added": "2018-01-26T13:40:46.113Z", 
+    "date_added": "2018-02-27T17:19:44.070Z", 
     "slug": "sentry"
   }
 },
@@ -8260,7 +8260,7 @@
     "status": 0, 
     "organization": 1, 
     "slug": "sentry", 
-    "date_added": "2018-01-26T13:40:46.117Z", 
+    "date_added": "2018-02-27T17:19:44.074Z", 
     "name": "Sentry"
   }
 },
@@ -8270,7 +8270,7 @@
   "fields": {
     "status": 0, 
     "name": "Internal", 
-    "date_added": "2018-01-26T13:40:46.119Z", 
+    "date_added": "2018-02-27T17:19:44.076Z", 
     "forced_color": null, 
     "public": false, 
     "first_event": null, 
@@ -8286,8 +8286,25 @@
   "model": "sentry.project", 
   "fields": {
     "status": 0, 
+    "name": "keycloak", 
+    "date_added": "2018-02-27T17:20:38.869Z", 
+    "forced_color": null, 
+    "public": false, 
+    "first_event": null, 
+    "platform": "", 
+    "flags": "0", 
+    "team": 1, 
+    "organization": 1, 
+    "slug": "keycloak"
+  }
+},
+{
+  "pk": 3, 
+  "model": "sentry.project", 
+  "fields": {
+    "status": 0, 
     "name": "keycloak_bridge", 
-    "date_added": "2018-01-26T13:52:42.573Z", 
+    "date_added": "2018-02-27T17:21:41.407Z", 
     "forced_color": null, 
     "public": false, 
     "first_event": null, 
@@ -8315,6 +8332,14 @@
   }
 },
 {
+  "pk": 3, 
+  "model": "sentry.projectteam", 
+  "fields": {
+    "project": 3, 
+    "team": 1
+  }
+},
+{
   "pk": 1, 
   "model": "sentry.organizationmember", 
   "fields": {
@@ -8322,9 +8347,9 @@
     "token": null, 
     "flags": "0", 
     "user": [
-      "cloudtrustsvc@gmail.com"
+      "admin@cloudtrust.com"
     ], 
-    "date_added": "2018-01-26T13:43:39.564Z", 
+    "date_added": "2018-02-27T17:20:06.426Z", 
     "organization": 1, 
     "role": "owner", 
     "type": 50, 
@@ -8345,14 +8370,14 @@
   "model": "sentry.projectkey", 
   "fields": {
     "status": 0, 
-    "public_key": "53c2980baf964ba3bbeba2903234667c", 
+    "public_key": "190ccf531b3f4bd6a647f04895e7b609", 
     "roles": "1", 
     "rate_limit_count": null, 
     "rate_limit_window": null, 
     "label": "Default", 
     "project": 1, 
-    "date_added": "2018-01-26T13:40:46.123Z", 
-    "secret_key": "a432c3f463ab42fa8d18d65c241be1ee"
+    "date_added": "2018-02-27T17:19:44.079Z", 
+    "secret_key": "b97dbb9539a44dbea093f8249199f8c1"
   }
 },
 {
@@ -8360,14 +8385,29 @@
   "model": "sentry.projectkey", 
   "fields": {
     "status": 0, 
-    "public_key": "e72472b33567425392a5d85f53b90e37", 
+    "public_key": "93a4a1c137514df1b81d9ad6e84ecdf5", 
     "roles": "1", 
     "rate_limit_count": null, 
     "rate_limit_window": null, 
     "label": "Default", 
     "project": 2, 
-    "date_added": "2018-01-26T13:52:42.580Z", 
-    "secret_key": "2f29106e872840a682a3e31df7db6f53"
+    "date_added": "2018-02-27T17:20:38.875Z", 
+    "secret_key": "1b58827e6dc74328817f96541b4a4e87"
+  }
+},
+{
+  "pk": 3, 
+  "model": "sentry.projectkey", 
+  "fields": {
+    "status": 0, 
+    "public_key": "df3dfd72900746e4964fe68edacf17e0", 
+    "roles": "1", 
+    "rate_limit_count": null, 
+    "rate_limit_window": null, 
+    "label": "Default", 
+    "project": 3, 
+    "date_added": "2018-02-27T17:21:41.414Z", 
+    "secret_key": "095084e321fa49de82d57e144e5f0768"
   }
 },
 {
@@ -8380,22 +8420,13 @@
   }
 },
 {
-  "pk": 2, 
-  "model": "sentry.projectoption", 
-  "fields": {
-    "project": 2, 
-    "value": "gAJYIAAAADM0ZjYwOTMwMDJhMDExZThiZTE3MDI0MmFjMTIwMDAzcQEu", 
-    "key": "sentry:token"
-  }
-},
-{
   "pk": 1, 
   "model": "sentry.rule", 
   "fields": {
     "project": 1, 
     "status": 0, 
     "data": "eJxljr0OwyAMhHe/CEyopP9jFbVjFx4gQkBaJAoI00p5+5ooUYduvvPZ33GbJShmUrS++hSRQe6Ah7wFbvOOVt6StacBXaxlEuUdHIrfgRh9wTqgc3FwH8qIWzMU6WuT/ZqkNwdAjYq9dDVPkkf6qkOg6QRka7M2OLcGctMqSAmPP/qSFDFVP04L9j6LmXkxC1B2jSi+gKlNZQ==", 
-    "date_added": "2018-01-26T13:40:46.126Z", 
+    "date_added": "2018-02-27T17:19:44.081Z", 
     "label": "Send a notification for new events"
   }
 },
@@ -8406,7 +8437,18 @@
     "project": 2, 
     "status": 0, 
     "data": "eJxljr0OwyAMhHe/CEyopP9jFbVjFx4gQkBaJAoI00p5+5ooUYduvvPZ33GbJShmUrS++hSRQe6Ah7wFbvOOVt6StacBXaxlEuUdHIrfgRh9wTqgc3FwH8qIWzMU6WuT/ZqkNwdAjYq9dDVPkkf6qkOg6QRka7M2OLcGctMqSAmPP/qSFDFVP04L9j6LmXkxC1B2jSi+gKlNZQ==", 
-    "date_added": "2018-01-26T13:52:42.585Z", 
+    "date_added": "2018-02-27T17:20:38.879Z", 
+    "label": "Send a notification for new events"
+  }
+},
+{
+  "pk": 3, 
+  "model": "sentry.rule", 
+  "fields": {
+    "project": 3, 
+    "status": 0, 
+    "data": "eJxljr0OwyAMhHe/CEyopP9jFbVjFx4gQkBaJAoI00p5+5ooUYduvvPZ33GbJShmUrS++hSRQe6Ah7wFbvOOVt6StacBXaxlEuUdHIrfgRh9wTqgc3FwH8qIWzMU6WuT/ZqkNwdAjYq9dDVPkkf6qkOg6QRka7M2OLcGctMqSAmPP/qSFDFVP04L9j6LmXkxC1B2jSi+gKlNZQ==", 
+    "date_added": "2018-02-27T17:21:41.416Z", 
     "label": "Send a notification for new events"
   }
 },
@@ -8417,7 +8459,7 @@
     "is_default": true, 
     "name": "Unresolved Issues", 
     "project": 1, 
-    "date_added": "2018-01-26T13:40:46.129Z", 
+    "date_added": "2018-02-27T17:19:44.083Z", 
     "owner": null, 
     "query": "is:unresolved"
   }
@@ -8429,7 +8471,7 @@
     "is_default": false, 
     "name": "Needs Triage", 
     "project": 1, 
-    "date_added": "2018-01-26T13:40:46.131Z", 
+    "date_added": "2018-02-27T17:19:44.084Z", 
     "owner": null, 
     "query": "is:unresolved is:unassigned"
   }
@@ -8441,7 +8483,7 @@
     "is_default": false, 
     "name": "Assigned To Me", 
     "project": 1, 
-    "date_added": "2018-01-26T13:40:46.133Z", 
+    "date_added": "2018-02-27T17:19:44.085Z", 
     "owner": null, 
     "query": "is:unresolved assigned:me"
   }
@@ -8453,7 +8495,7 @@
     "is_default": false, 
     "name": "My Bookmarks", 
     "project": 1, 
-    "date_added": "2018-01-26T13:40:46.134Z", 
+    "date_added": "2018-02-27T17:19:44.086Z", 
     "owner": null, 
     "query": "is:unresolved bookmarks:me"
   }
@@ -8465,7 +8507,7 @@
     "is_default": false, 
     "name": "New Today", 
     "project": 1, 
-    "date_added": "2018-01-26T13:40:46.135Z", 
+    "date_added": "2018-02-27T17:19:44.087Z", 
     "owner": null, 
     "query": "is:unresolved age:-24h"
   }
@@ -8477,7 +8519,7 @@
     "is_default": true, 
     "name": "Unresolved Issues", 
     "project": 2, 
-    "date_added": "2018-01-26T13:52:42.586Z", 
+    "date_added": "2018-02-27T17:20:38.884Z", 
     "owner": null, 
     "query": "is:unresolved"
   }
@@ -8489,7 +8531,7 @@
     "is_default": false, 
     "name": "Needs Triage", 
     "project": 2, 
-    "date_added": "2018-01-26T13:52:42.592Z", 
+    "date_added": "2018-02-27T17:20:38.885Z", 
     "owner": null, 
     "query": "is:unresolved is:unassigned"
   }
@@ -8501,7 +8543,7 @@
     "is_default": false, 
     "name": "Assigned To Me", 
     "project": 2, 
-    "date_added": "2018-01-26T13:52:42.593Z", 
+    "date_added": "2018-02-27T17:20:38.886Z", 
     "owner": null, 
     "query": "is:unresolved assigned:me"
   }
@@ -8513,7 +8555,7 @@
     "is_default": false, 
     "name": "My Bookmarks", 
     "project": 2, 
-    "date_added": "2018-01-26T13:52:42.594Z", 
+    "date_added": "2018-02-27T17:20:38.888Z", 
     "owner": null, 
     "query": "is:unresolved bookmarks:me"
   }
@@ -8525,7 +8567,67 @@
     "is_default": false, 
     "name": "New Today", 
     "project": 2, 
-    "date_added": "2018-01-26T13:52:42.596Z", 
+    "date_added": "2018-02-27T17:20:38.889Z", 
+    "owner": null, 
+    "query": "is:unresolved age:-24h"
+  }
+},
+{
+  "pk": 11, 
+  "model": "sentry.savedsearch", 
+  "fields": {
+    "is_default": true, 
+    "name": "Unresolved Issues", 
+    "project": 3, 
+    "date_added": "2018-02-27T17:21:41.421Z", 
+    "owner": null, 
+    "query": "is:unresolved"
+  }
+},
+{
+  "pk": 12, 
+  "model": "sentry.savedsearch", 
+  "fields": {
+    "is_default": false, 
+    "name": "Needs Triage", 
+    "project": 3, 
+    "date_added": "2018-02-27T17:21:41.422Z", 
+    "owner": null, 
+    "query": "is:unresolved is:unassigned"
+  }
+},
+{
+  "pk": 13, 
+  "model": "sentry.savedsearch", 
+  "fields": {
+    "is_default": false, 
+    "name": "Assigned To Me", 
+    "project": 3, 
+    "date_added": "2018-02-27T17:21:41.423Z", 
+    "owner": null, 
+    "query": "is:unresolved assigned:me"
+  }
+},
+{
+  "pk": 14, 
+  "model": "sentry.savedsearch", 
+  "fields": {
+    "is_default": false, 
+    "name": "My Bookmarks", 
+    "project": 3, 
+    "date_added": "2018-02-27T17:21:41.424Z", 
+    "owner": null, 
+    "query": "is:unresolved bookmarks:me"
+  }
+},
+{
+  "pk": 15, 
+  "model": "sentry.savedsearch", 
+  "fields": {
+    "is_default": false, 
+    "name": "New Today", 
+    "project": 3, 
+    "date_added": "2018-02-27T17:21:41.425Z", 
     "owner": null, 
     "query": "is:unresolved age:-24h"
   }
