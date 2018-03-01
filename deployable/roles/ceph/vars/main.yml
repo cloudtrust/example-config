@@ -1,0 +1,8 @@
+#Global
+dynamic_keys: True
+
+git_tag: initial
+git_repo: git@github.com:cloudtrust/ceph-service.git
+
+#Monitor
+mon_replicas: 2

@@ -1,0 +1,8 @@
+git_tag: initial
+git_repo: git@github.com:cloudtrust/sentry-service.git
+
+config_repo_name: int
+config_repo: git@github.com:cloudtrust/dev-config.git
+config_branch: master
+
+server_name: sentry.cloudtrust.com

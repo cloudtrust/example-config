@@ -1,0 +1,22 @@
+---
+default_interface: "{{ hostvars[inventory_hostname]['ansible_default_ipv4']['interface'] }}"
+interface: "{{ default_interface }}"
+
+flannel_subnet: 10.244.0.0
+flannel_prefix: 16
+flannel_host_prefix: 24
+etcd_client_port: 2379
+etcd_servers: "{% for node in groups['etcd'] %}http://{{ hostvars[node]['ansible_' + interface]['ipv4']['address'] }}:{{ etcd_client_port }}{% if not loop.last %},{% endif %}{% endfor %}"
+
+# Kubernetes information
+srv_kube_path: /srv/kubernetes
+config_path: /etc/kubernetes
+kube_addon_dir: "{{ config_path }}/addons"
+kube_script_dir: "{{ config_path }}/scripts"
+manifests_path: "{{ config_path }}/manifests"
+kubeconfig: "{{ config_path }}/admin.kubeconfig"
+
+cluster_name: cloudtrust
+
+kube_service_ip: 10.254.0.0/16
+master_ip: "{{ hostvars[groups['etcd'][0]]['ansible_' + interface]['ipv4']['address'] }}"

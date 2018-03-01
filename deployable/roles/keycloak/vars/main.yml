@@ -1,0 +1,10 @@
+git_tag: initial
+git_repo: 'git@github.com:cloudtrust/keycloak-service.git'
+
+event_emitter_git_tag: 'master'
+
+config_repo_name: int
+config_repo: git@github.com:cloudtrust/dev-config.git
+config_git_tag: master
+
+server_name: keycloak.cloudtrust.com
