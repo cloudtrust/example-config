@@ -1,9 +1,11 @@
 git_tag: initial
 git_repo: 'git@github.com:cloudtrust/keycloak-service.git'
 
-event_emitter_git_tag: 'master'
+event_emitter_release: https://github.com/cloudtrust/event-emitter/releases/download/v0.1/event_emitter.tar.gz
+keycloak_bridge_release: https://github.com/cloudtrust/keycloak-bridge/releases/download/1.0/v1.0.tar.gz
+jaeger_release: https://github.com/cloudtrust/jaeger/releases/download/v1.2.0/v1.2.0.tar.gz
 
-config_repo_name: int
+config_repo_name: dev
 config_repo: git@github.com:cloudtrust/dev-config.git
 config_git_tag: master
 
