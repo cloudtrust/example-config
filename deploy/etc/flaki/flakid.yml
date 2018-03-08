@@ -1,14 +1,14 @@
 # Component configs
 component-name: flaki-service
-component-http-address: 0.0.0.0:8888
-component-grpc-address: 0.0.0.0:5555
+component-http-host-port: 0.0.0.0:8888
+component-grpc-host-port: 0.0.0.0:5555
 
 # Flaki generator configs
 flaki-node-id: 0
 flaki-component-id: 0
 
 # Influx DB configs
-influx-url: influx
+influx-host-port: influx
 influx-username: flaki
 influx-password: flaki
 influx-database: flaki
@@ -23,6 +23,10 @@ sentry-dsn: http://8f631fb132c9485a93f5e2a1fe577a8c:88a294d696104a97ba26fc673b52
 # Jaeger configs
 jaeger-sampler-type: const
 jaeger-sampler-param: 1
-jaeger-sampler-url: 127.0.0.1:5775
+jaeger-sampler-host-port: 127.0.0.1:5775
 jaeger-reporter-logspan: false
-jaeger-reporter-flushinterval-ms: 1000
+jaeger-write-interval-ms: 1000
+jaeger-collector-healthcheck-host-port: jaeger-collector:14269
+
+# Debug routes
+pprof-route-enabled: true
