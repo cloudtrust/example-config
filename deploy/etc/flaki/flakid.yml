@@ -26,7 +26,7 @@ jaeger-sampler-param: 1
 jaeger-sampler-host-port: 127.0.0.1:5775
 jaeger-reporter-logspan: false
 jaeger-write-interval-ms: 1000
-jaeger-collector-healthcheck-host-port: jaeger-collector:14269
+jaeger-collector-healthcheck-host-port: jaeger-collector:14260
 
 # Debug routes
 pprof-route-enabled: true
