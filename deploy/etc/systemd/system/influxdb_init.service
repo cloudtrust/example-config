@@ -7,9 +7,9 @@ Type=oneshot
 ExecStart=/cloudtrust/influx-tools/bin/python /cloudtrust/influx-tools/scripts/init_admin_account.py \
           --influxdb-credentials /cloudtrust/influxdb-config/admin.json
 ExecStart=/cloudtrust/influx-tools/bin/python /cloudtrust/influx-tools/scripts/create_databases_users.py \
-          --influxdb-credentials /cloudtrust/influxdb-config/admin.json \ 
-          --influx-config-file /cloudtrust/influxdb-config/keycloack.json  
-ExecStart=+/bin/systemctl disable influxdb_init 
+          --influxdb-credentials /cloudtrust/influxdb-config/admin.json \
+          --influx-config-file /cloudtrust/influxdb-config/keycloack.json
+ExecStart=+/bin/systemctl disable influxdb_init
 RemainAfterExit=true
 
 [Install]
