@@ -1,0 +1,16 @@
+[Unit]
+Description=Populate postgresql with users and databases needed for keycloak and sentry
+After=postgresql.service
+
+[Service]
+Type=oneshot
+User=postgres
+ExecStart=/cloudtrust/postgresql-tools/bin/python /cloudtrust/postgresql-tools/postgresql_execute_script.py \
+	  --sql-script /cloudtrust/postgresql-scripts/keycloak.sql --sql-script-rollback /cloudtrust/postgresql-scripts/keycloak.sql.rollback
+ExecStart=/cloudtrust/postgresql-tools/bin/python /cloudtrust/postgresql-tools/postgresql_execute_script.py \
+	  --sql-script /cloudtrust/postgresql-scripts/sentry.sql --sql-script-rollback /cloudtrust/postgresql-scripts/sentry.sql.rollback
+ExecStart=+/bin/systemctl disable postgresql_init 
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+{
+  "admin" : {
+    "user": "keycloak",
+    "password": "keycloak"
+  },
+  "databases_users": [
+    {
+      "db_name": "keycloak"
+    }
+  ]
+}
