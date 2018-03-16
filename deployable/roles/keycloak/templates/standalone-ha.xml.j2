@@ -87,7 +87,7 @@
     <profile>
         <subsystem xmlns="urn:jboss:domain:logging:3.0">
             <console-handler name="CONSOLE">
-                <level name="INFO"/>
+                <level name="DEBUG"/>
                 <formatter>
                     <named-formatter name="COLOR-PATTERN"/>
                 </formatter>
@@ -110,7 +110,7 @@
                 <level name="WARN"/>
             </logger>
             <root-logger>
-                <level name="INFO"/>
+                <level name="DEBUG"/>
                 <handlers>
                     <handler name="CONSOLE"/>
                     <handler name="FILE"/>
@@ -310,9 +310,15 @@
             </channels>
             <stacks>
                 <stack name="tcp">
-                    <transport type="TCP" socket-binding="jgroups-tcp"/>
-                    <protocol type="TCPPING"/>
+                    <transport type="TCP" socket-binding="jgroups-tcp">
+                        <property name="receive_on_all_interfaces">true</property>
+                        <property name="send_on_all_interfaces">true</property>
+                    </transport>
+                    <protocol type="TCPPING">
                         <property name="initial_hosts">{{ jgroups_initial_hosts }}</property>
+                        <property name="timeout">30000</property>
+                        <property name="port_range">0</property>
+                    </protocol>
                     <protocol type="MERGE3"/>
                     <protocol type="FD_SOCK"/>
                     <protocol type="FD_ALL"/>
@@ -508,7 +514,7 @@
             <buffer-cache name="default"/>
             <server name="default-server">
                 <ajp-listener name="ajp" socket-binding="ajp"/>
-                <http-listener name="default" socket-binding="http" redirect-socket="https" enable-http2="true"/>
+                <http-listener name="default" socket-binding="http" redirect-socket="https" proxy-address-forwarding="true" enable-http2="true"/>
                 <https-listener name="https" socket-binding="https" security-realm="ApplicationRealm" enable-http2="true"/>
                 <host name="default-host" alias="localhost">
                     <location name="/" handler="welcome-content"/>
@@ -525,13 +531,9 @@
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:keycloak-server:1.1">
             <web-context>auth</web-context>
-            <provider>
-                module:io.cloudtrust.keycloak.eventemitter
-            </provider>
-            <provider>
-                module:com.quest.keycloak-wsfed
-            </provider>
             <providers>
+                <provider> module:io.cloudtrust.keycloak.eventemitter </provider>
+                <provider> module:com.quest.keycloak-wsfed </provider>
                 <provider>classpath:${jboss.home.dir}/providers/*</provider>
             </providers>
             <master-realm-name>master</master-realm-name>
@@ -618,7 +620,7 @@
             <inet-address value="${jboss.bind.address:127.0.0.1}"/>
         </interface>
         <interface name="private">
-            <inet-address value="${jboss.bind.address.private:127.0.0.1}"/>
+            <nic name="eth0"/>
         </interface>
     </interfaces>
     <socket-binding-group name="standard-sockets" default-interface="public" port-offset="${jboss.socket.binding.port-offset:0}">
@@ -627,7 +629,7 @@
         <socket-binding name="ajp" port="${jboss.ajp.port:8009}"/>
         <socket-binding name="http" port="${jboss.http.port:8080}"/>
         <socket-binding name="https" port="${jboss.https.port:8443}"/>
-        <socket-binding name="jgroups-tcp" port="{{ jgroups_tcp_port }}"/>
+        <socket-binding name="jgroups-tcp" interface="private" port="{{ jgroups_tcp_port }}"/>
         <socket-binding name="modcluster" port="0" multicast-address="${jboss.modcluster.multicast.address:224.0.1.105}" multicast-port="23364"/>
         <socket-binding name="txn-recovery-environment" port="4712"/>
         <socket-binding name="txn-status-manager" port="4713"/>
