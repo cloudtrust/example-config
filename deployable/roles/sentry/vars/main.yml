@@ -5,4 +5,7 @@ config_repo_name: int
 config_repo: git@github.com:cloudtrust/dev-config.git
 config_branch: master
 
+sentry_wheel_release: https://github.com/getsentry/sentry/releases/download/8.22.0/sentry-8.22.0-py27-none-any.whl
+sentry_wheel_version: 8.22.0
+
 server_name: sentry.cloudtrust.com
