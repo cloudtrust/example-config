@@ -3,6 +3,6 @@ dynamic_keys: True
 
 git_tag: initial
 git_repo: git@github.com:cloudtrust/ceph-service.git
-
-#Monitor
-mon_replicas: 2
+ceph_tools_git_tag: initial
+config_repo: git@github.com:cloudtrust/dev-config.git
+config_git_tag: ceph-test

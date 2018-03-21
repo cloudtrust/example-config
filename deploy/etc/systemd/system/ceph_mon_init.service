@@ -1,0 +1,13 @@
+[Unit]
+Description=Keyring import
+After=ceph-mon.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/ceph auth import -i /etc/ceph/ceph.client.admin.keyring
+ExecStart=/usr/bin/ceph auth import -i /etc/ceph/ceph.client.kube.keyring
+ExecStart=/usr/bin/ceph osd pool create hddpool 8
+
+[Install]
+WantedBy=multi-user.target
+
