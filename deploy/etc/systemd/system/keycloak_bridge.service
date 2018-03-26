@@ -4,7 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/opt/keycloak-bridge/keycloakd --config-file=/opt/keycloak-bridge/conf/keycloak_bridge.yaml
+User=keycloak
+Group=keycloak
+ExecStart=/opt/keycloak-bridge/keycloak_bridge --config-file=/opt/keycloak-bridge/conf/keycloak_bridge.yml
 
 [Install]
 WantedBy=multi-user.target
