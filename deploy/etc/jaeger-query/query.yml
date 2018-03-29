@@ -1,5 +1,3 @@
-# The type of span storage backend to use, options are currently [cassandra,elasticsearch,memory]
-span-storage.type: cassandra
 # Minimal allowed log Level.
 log-level: info
 # Frequency of service dependency calculations (default 24h0m0s)
@@ -21,103 +19,18 @@ query:
   # The path to the UI configuration file in JSON format
   ui-config: /etc/query/ui-config.json
 
-# es:
-#   # The username required by ElasticSearch
-#   username: string
-#   # The password required by ElasticSearch
-#   password: string
-#   # The comma-separated list of ElasticSearch servers, must be full url i.e. http://localhost:9200 (default "http://127.0.0.1:9200")
-#   server-urls: string
-#   # The maximum lookback for spans in ElasticSearch (default 72h0m0s)
-#   max-span-age: duration
-#   # The number of replicas per index in ElasticSearch (default 1)
-#   num-replicas: int
-#   # The number of shards per index in ElasticSearch (default 5)
-#   num-shards: int
-#   archive:
-#     # The maximum lookback for spans in ElasticSearch (default 0s)
-#     max-span-age: 0s
-#     # The number of replicas per index in ElasticSearch
-#     num-replicas: int
-#     # The number of shards per index in ElasticSearch
-#     num-shards: int
-#     # The password required by ElasticSearch
-#     password: string
-#     # The comma-separated list of ElasticSearch servers, must be full url i.e. http://localhost:9200
-#     server-urls: string
-#     # The sniffer config for ElasticSearch; client uses sniffing process to find all nodes automatically, disable if not required
-#     sniffer:
-#     # The username required by ElasticSearch
-#     username: string
-#   # The sniffer config for ElasticSearch; client uses sniffing process to find all nodes automatically, disable if not required
-#   sniffer:
-
-cassandra:
-  # archive:
-  #   # The number of Cassandra connections from a single backend instance
-  #   connections-per-host: int
-  #   # The Cassandra keyspace for Jaeger data
-  #   keyspace: string
-  #   # The number of attempts when reading from Cassandra
-  #   max-retry-attempts: int
-  #   # Username for password authentication for Cassandra
-  #   username: string
-  #   # Password for password authentication for Cassandra
-  #   password: string
-  #   # The port for cassandra
-  #   port: int
-  #   # The Cassandra protocol version
-  #   proto-version: int
-  #   # The comma-separated list of Cassandra servers
-  #   servers: string
-  #   # Cassandra's keepalive period to use, enabled if > 0 (default 0s)
-  #   socket-keep-alive: duration
-  #   # Timeout used for queries (default 0s)
-  #   timeout: duration
-  #   # Enable TLS
-  #   tls: false
-  #   tls:
-  #     # Path to TLS CA file
-  #     ca: string
-  #     # Path to TLS certificate file
-  #     cert: string
-  #     # Path to TLS key file
-  #     key: string
-  #     # Override the TLS server name
-  #     server-name: string
-  #     # Enable (or disable) host key verification
-  #     verify-host:
-  # The number of Cassandra connections from a single backend instance (default 2)
-  connections-per-host: 2
-  # The Cassandra keyspace for Jaeger data (default "jaeger_v1_local")
-  keyspace: jaeger_v1_test
-  # The number of attempts when reading from Cassandra (default 3)
-  max-retry-attempts: 3
-  # Username for password authentication for Cassandra
-  username: jaeger
-  # Password for password authentication for Cassandra
-  password: jaeger
-  # The port for cassandra
-  port: 9042
-  # The Cassandra protocol version (default 4)
-  proto-version: 4
-  # The comma-separated list of Cassandra servers (default "127.0.0.1")
-  servers: cassandra
-  # Cassandra's keepalive period to use, enabled if > 0 (default 0s)
-  socket-keep-alive: 0s
-  # Timeout used for queries (default 0s)
-  timeout: 0s
-  # # Enable TLS
-  #   tls: false
-  #   tls:
-  #     # Path to TLS CA file
-  #     ca: string
-  #     # Path to TLS certificate file
-  #     cert: string
-  #     # Path to TLS key file
-  #     key: string
-  #     # Override the TLS server name
-  #     server-name: string
-  #     # Enable (or disable) host key verification
-  #     verify-host:    
-                            
+es:
+  # The username required by ElasticSearch
+  username: 
+  # The password required by ElasticSearch
+  password: 
+  # The comma-separated list of ElasticSearch servers, must be full url i.e. http://localhost:9200 (default "http://127.0.0.1:9200")
+  server-urls: http://elasticsearch-data:9200
+  # The maximum lookback for spans in ElasticSearch (default 72h0m0s)
+  max-span-age: 1y
+  # The number of shards per index in ElasticSearch (default 5)
+  num-shards: 3
+  # The number of replicas per index in ElasticSearch (default 1)
+  num-replicas: 2
+  # The sniffer config for ElasticSearch; client uses sniffing process to find all nodes automatically, disable if not required
+  sniffer:
