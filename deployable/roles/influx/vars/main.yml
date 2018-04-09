@@ -1,7 +1,7 @@
-git_tag: initial
+git_tag: new_script
 git_repo: git@github.com:cloudtrust/influx-service.git
 
-tools_git_tag: initial
+tools_git_tag: new_script
 
 config_repo_name: dev
 config_repo: git@github.com:cloudtrust/dev-config.git
