@@ -1,0 +1,57 @@
+# For the keys representing duration (i.e. the key ending with "-interval" or "-validity"), 
+# the Go syntax is used. Valid units are "h", "m", "s", "ms", "us", "ns", e.g. "2h30m10s".
+
+# Component configs
+component-http-host-port: 0.0.0.0:8888
+
+# Flaki ID generator
+flaki-host-port: flaki:5555
+
+# Elasticsearch configs
+elasticsearch-host-port: elasticsearch-data:9200
+
+# Redis configs
+redis-host-port: 
+redis-password: 
+redis-database: 0
+redis-write-interval: 1s
+
+# Cockroach configs
+cockroach-host-port: localhost:26257
+cockroach-username: cockroach
+cockroach-password: cockroach
+cockroach-health-database: health
+cockroach-jobs-database: jobs
+cockroach-clean-interval: 1m
+
+# Influx DB configs
+influx-host-port: 
+influx-username: 
+influx-password: 
+influx-database: 
+influx-precision: s
+influx-retention-policy: ""
+influx-write-consistency: ""
+influx-write-interval: 1s
+
+# Sentry configs
+sentry-dsn: 
+
+# Jaeger configs
+jaeger-sampler-type: const
+jaeger-sampler-param: 1
+jaeger-sampler-host-port: 
+jaeger-reporter-logspan: false
+jaeger-write-interval: 1s
+jaeger-collector-healthcheck-host-port: 
+
+# Debug routes
+pprof-route-enabled: true
+
+# Jobs
+job-influx-health-validity: 1m
+job-jaeger-health-validity: 1m
+job-redis-health-validity: 1m
+job-sentry-health-validity: 1m
+job-flaki-health-validity: 1m
+job-elasticsearch-health-validity: 1m
