@@ -1,0 +1,11 @@
+git_tag: initial
+
+headless_service_name: elasticsearch-master
+data_replicas: 1
+master_replicas: 1
+data_path: /var/lib/elasticsearch
+
+elasticsearch_cluster_name: 'elastic_cluster'
+elasticsearch_bridge_release: 'https://github.com/cloudtrust/elasticsearch-bridge/releases/download/v1.0/v1.0.tar.gz'
+jaeger_release: 'https://github.com/cloudtrust/jaeger/releases/download/v1.3.0/v1.3.0.tar.gz'
+

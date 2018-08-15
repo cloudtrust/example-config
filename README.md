@@ -1,7 +1,3 @@
-# Development setup
+This repository contains the reference configuration for deploying Cloudtrust.
 
-## VM SETUP
-
-OS : We recommend Fedora 27
-
-No swap partition! Kubernetes doesn't recommend swap and since 1.8 will refuse to run with swap enabled unless a flag is passed!
+The complete deployment guide can be found at [cloudtrust.io](http://cloudtrust.io/doc/chapter-deploy/Deployment_Procedure_Cluster.html).

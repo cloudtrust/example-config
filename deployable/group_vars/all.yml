@@ -5,8 +5,10 @@ interface: "{{ default_interface }}"
 flannel_subnet: 10.244.0.0
 flannel_prefix: 16
 flannel_host_prefix: 24
+
+etcd_scheme: "https"
 etcd_client_port: 2379
-etcd_servers: "{% for node in groups['etcd'] %}http://{{ hostvars[node]['ansible_' + interface]['ipv4']['address'] }}:{{ etcd_client_port }}{% if not loop.last %},{% endif %}{% endfor %}"
+etcd_servers: "{% for node in groups['etcd'] %}{{ etcd_scheme }}://{{ hostvars[node]['ansible_fqdn'] }}:{{ etcd_client_port }}{% if not loop.last %},{% endif %}{% endfor %}"
 
 # Kubernetes information
 srv_kube_path: /srv/kubernetes
@@ -19,4 +21,16 @@ kubeconfig: "{{ config_path }}/admin.kubeconfig"
 cluster_name: cloudtrust
 
 kube_service_ip: 10.254.0.0/16
-master_ip: "{{ hostvars[groups['etcd'][0]]['ansible_' + interface]['ipv4']['address'] }}"
+master_ip: "{{ ansible_fqdn }}"
+cluster_dns: "{{ kube_service_ip | ipaddr('net') | ipaddr(10) | ipaddr('address') }}"
+#master_ip: "{{ hostvars[groups['etcd'][0]]['ansible_' + interface]['ipv4']['address'] }}"
+
+pki_path: /etc/ssl/pki
+ca_cert_file: ca.crt
+ca_cert: '{{ pki_path }}/{{ ca_cert_file }}'
+
+etcd_ssl: /etc/ssl/etcd/
+etcd_client_cert_file: etcd_client.crt
+etcd_client_cert: '{{ etcd_ssl }}/{{ etcd_client_cert_file }}'
+etcd_client_key_file: etcd_client.key
+etcd_client_key: '{{ etcd_ssl }}/{{ etcd_client_key_file }}'

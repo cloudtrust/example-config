@@ -1,2 +1,0 @@
-DROP DATABASE jobs;
-DROP USER job;

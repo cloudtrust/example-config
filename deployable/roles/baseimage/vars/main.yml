@@ -1,6 +1,5 @@
 tag: f27
 
-git_repo: 'git@github.com:cloudtrust/baseimage.git'
 git_tag: initial
 
 ssh_key_name: id_ssh

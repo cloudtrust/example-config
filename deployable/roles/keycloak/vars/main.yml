@@ -1,13 +1,14 @@
-git_tag: 0.4
+git_tag: master
 
+keycloak_client_mappers_release: https://github.com/cloudtrust/keycloak-client-mappers/releases/download/v1.0/v1.0.tar.gz
+keycloak_release: https://downloads.jboss.org/keycloak/3.4.3.Final/keycloak-3.4.3.Final.tar.gz
 event_emitter_release: https://github.com/cloudtrust/event-emitter/releases/download/v0.1/event_emitter.tar.gz
 jaeger_release: https://github.com/cloudtrust/jaeger/releases/download/v1.2.0/v1.2.0.tar.gz  
 keycloak_bridge_release: https://github.com/cloudtrust/keycloak-bridge/releases/download/1.0/v1.0.tar.gz
-wsfed_release: https://github.com/cloudtrust/keycloak-wsfed/releases/download/3.4.3.Final.0-SNAPSHOT/wsfed-3.4.3.tar.gz
-keycloak_export_release: https://github.com/cloudtrust/keycloak-export/releases/download/0.2-SNAPSHOT/keycloak-export.tar.gz
+wsfed_release: https://github.com/cloudtrust/keycloak-wsfed/releases/download/3.4.3.Final.2-SNAPSHOT/wsfed-3.4.3.tar.gz
+keycloak_export_release: https://github.com/cloudtrust/keycloak-export/releases/download/v0.3/keycloak-export.tar.gz
+keycloak_authorization_release: https://github.com/cloudtrust/keycloak-authorization/releases/download/v0.3/v0.3.tar.gz
 
-config_repo_name: dev
-config_repo: git@github.com/cloudtrust/dev-config.git
-config_git_tag: master
+image_name: "cloudtrust-keycloak"
 
 server_name: keycloak.cloudtrust.com

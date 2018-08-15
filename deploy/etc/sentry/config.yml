@@ -33,7 +33,7 @@ mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
 # If this file ever becomes compromised, it's important to regenerate your a new key
 # Changing this value will result in all current sessions being invalidated.
 # A new key can be generated with `$ sentry config generate-secret-key`
-system.secret-key: '7+czxc%o1fxjtw4+zxl0kf9+e77bw52ohkh02%vkcelf65y9d+'
+system.secret-key: ''
 
 # The ``redis.clusters`` setting is used, unsurprisingly, to configure Redis
 # clusters. These clusters can be then referred to by name when configuring

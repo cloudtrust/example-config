@@ -1,0 +1,5 @@
+git_tag: 1.1
+
+flaki_service_release: https://github.com/cloudtrust/flaki-service/releases/download/1.1/v1.1.tar.gz
+jaeger_release: https://github.com/cloudtrust/jaeger/releases/download/v1.2.0/v1.2.0.tar.gz  
+

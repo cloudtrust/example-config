@@ -1,7 +1,2 @@
-git_tag: master
-git_repo: git@github.com:cloudtrust/postgresql-service.git
-
+git_tag: 0.1
 postgresql_tools_git_tag: master
-config_name: dev
-config_repo: git@github.com:cloudtrust/dev-config.git
-config_git_tag: master

@@ -1,8 +1,5 @@
 #Global
-dynamic_keys: True
+dynamic_keys: False
 
 git_tag: master
-git_repo: git@github.com:cloudtrust/ceph-service.git
-ceph_tools_git_tag: initial
-config_repo: git@github.com:cloudtrust/dev-config.git
-config_git_tag: ceph-test
+ceph_tools_git_tag: 0.1

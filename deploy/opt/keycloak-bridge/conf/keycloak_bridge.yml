@@ -1,5 +1,7 @@
+# For the keys representing duration (i.e. the key ending with "-interval" or "-validity"), 
+# the Go syntax is used. Valid units are "h", "m", "s", "ms", "us", "ns", e.g. "2h30m10s".
+
 # Component configs
-component-name: keycloak-bridge
 component-http-host-port: 0.0.0.0:8888
 component-grpc-host-port: 0.0.0.0:5555
 
@@ -10,34 +12,73 @@ flaki-host-port: flaki:5555
 keycloak-host-port: 127.0.0.1:8080
 keycloak-username: admin
 keycloak-password: admin
-keycloak-timeout-ms: 5000
+keycloak-timeout: 5s
+
+# Elasticsearch configs
+es-host-port: elasticsearch-data:9200
+es-index-name: audit
 
 # Redis
 redis-host-port: redis:6379
-redis-password: redis
+redis-password: admin
 redis-database: 0
-redis-write-interval-ms: 1000
+redis-write-interval: 1s
+
+# Cockroach configs
+cockroach-host-port: cockroach:26257
+cockroach-username: admin
+cockroach-password: admin
+cockroach-database: cloudtrust
+cockroach-clean-interval: 1m
 
 # Influx DB configs
-influx-host-port: influx:8086
-influx-username: keycloak
-influx-password: keycloak
-influx-database: keycloak
+influx-host-port: influx:80
+influx-username: admin
+influx-password: admin
+influx-database: cloudtrust
 influx-precision: s
 influx-retention-policy: ""
 influx-write-consistency: ""
-influx-write-interval-ms: 1000
+influx-write-interval-ms: 1s
 
 # Sentry configs
-sentry-dsn: http://df3dfd72900746e4964fe68edacf17e0:095084e321fa49de82d57e144e5f0768@sentry/3
+sentry-dsn: 
 
 # Jaeger configs
 jaeger-sampler-type: const
 jaeger-sampler-param: 1
 jaeger-sampler-host-port: 127.0.0.1:5775
 jaeger-reporter-logspan: false
-jaeger-write-interval-ms: 1000
+jaeger-write-interval: 1s
 jaeger-collector-healthcheck-host-port: jaeger-collector:14260
 
 # Debug routes
 pprof-route-enabled: true
+
+# Jobs
+job-es-health-validity: 1m
+job-flaki-health-validity: 1m
+job-influx-health-validity: 1m
+job-jaeger-health-validity: 1m
+job-redis-health-validity: 1m
+job-sentry-health-validity: 1m
+job-keycloak-health-validity: 1m
+
+# Rate limiting in requests/second.
+rate-event: 1000
+rate-user: 1000
+rate-es-health-exec: 1000
+rate-es-health-read: 1000
+rate-influx-health-exec: 1000
+rate-influx-health-read: 1000
+rate-jaeger-health-exec: 1000
+rate-jaeger-health-read: 1000
+rate-redis-health-exec: 1000
+rate-redis-health-read: 1000
+rate-sentry-health-exec: 1000
+rate-sentry-health-read: 1000
+rate-flaki-health-exec: 1000
+rate-flaki-health-read: 1000
+rate-keycloak-health-exec: 1000
+rate-keycloak-health-read: 1000
+rate-all-health: 1000

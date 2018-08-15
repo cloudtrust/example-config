@@ -11,28 +11,27 @@ flaki-host-port: flaki:5555
 elasticsearch-host-port: elasticsearch-data:9200
 
 # Redis configs
-redis-host-port: 
-redis-password: 
+redis-host-port: redis:6379
+redis-password: admin
 redis-database: 0
 redis-write-interval: 1s
 
 # Cockroach configs
-cockroach-host-port: localhost:26257
-cockroach-username: cockroach
-cockroach-password: cockroach
-cockroach-health-database: health
-cockroach-jobs-database: jobs
+cockroach-host-port: cockroach:26257
+cockroach-username: admin
+cockroach-password: admin
+cockroach-database: cloudtrust
 cockroach-clean-interval: 1m
 
 # Influx DB configs
-influx-host-port: 
-influx-username: 
-influx-password: 
-influx-database: 
+influx-host-port: influx:80
+influx-username: admin
+influx-password: admin
+influx-database: cloudtrust
 influx-precision: s
 influx-retention-policy: ""
 influx-write-consistency: ""
-influx-write-interval: 1s
+influx-write-interval-ms: 1s
 
 # Sentry configs
 sentry-dsn: 
@@ -40,10 +39,10 @@ sentry-dsn:
 # Jaeger configs
 jaeger-sampler-type: const
 jaeger-sampler-param: 1
-jaeger-sampler-host-port: 
+jaeger-sampler-host-port: 127.0.0.1:5775
 jaeger-reporter-logspan: false
 jaeger-write-interval: 1s
-jaeger-collector-healthcheck-host-port: 
+jaeger-collector-healthcheck-host-port: jaeger-collector:14260
 
 # Debug routes
 pprof-route-enabled: true

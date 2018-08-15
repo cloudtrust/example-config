@@ -1,0 +1,5 @@
+git_tag: elasticsearch
+
+jaeger_release: https://github.com/cloudtrust/jaeger/releases/download/v1.2.0/v1.2.0.tar.gz  
+
+server_name: dem-jaeger.cloudtrust.io

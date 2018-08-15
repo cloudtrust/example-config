@@ -263,7 +263,7 @@ if SENTRY_OPTIONS['mail.enable-replies']:
 # If this value ever becomes compromised, it's important to regenerate your
 # SENTRY_SECRET_KEY. Changing this value will result in all current sessions
 # being invalidated.
-secret_key = '7+czxc%o1fxjtw4+zxl0kf9+e77bw52ohkh02%vkcelf65y9d+'
+secret_key = ''
 
 if not secret_key:
     raise Exception('Error: SENTRY_SECRET_KEY is undefined, run `generate-secret-key` and set to -e SENTRY_SECRET_KEY')

@@ -1,8 +1,3 @@
 git_tag: initial
-git_repo: git@github.com:cloudtrust/grafana-service.git
-
-config_repo_name: dev
-config_repo: git@github.com:cloudtrust/dev-config.git
-config_branch: master
 
 server_name: grafana.cloudtrust.com

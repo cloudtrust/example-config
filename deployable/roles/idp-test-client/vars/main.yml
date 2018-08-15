@@ -1,0 +1,153 @@
+git_tag: master
+
+#protocol: wsfed * 5; saml * 4
+#connection_address: https://ingress_name
+#saml_entity_id: (only for saml) sp_saml[1..4]
+#idp_path: 
+#
+#fediz_audience_item: https://ingress_name
+#fediz_issuer: [ http://keycloak/auth/realms/Keycloak_testing/protocol/wsfed, http://keycloak/auth/realms/keycloak_testing/protocol/wsfed * 4 ]
+#fediz_realm: [ client-wsfed, sp_wsfed[1..4] ]
+#fediz_reply: https://ingress_name/j_spring_fediz_security_check
+#fediz_logout_redirect_to: https://ingress_name/performLogout
+
+image_name: cloudtrust-idp-client:latest
+
+clients: [
+    #wsfed_client
+    { 
+        port: 7000,
+        name: "wsfed-client",
+        route: "dem-client-wsfed.cloudtrust.io",
+        protocol: "wsfed",
+        connection_address: "https://dem-client-wsfed.cloudtrust.io",
+        saml_entity_id: "",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/Keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "https://dem-client-wsfed.cloudtrust.io",
+        fediz_issuer: "https://dem-idp.cloudtrust.io/auth/realms/Keycloak_testing/protocol/wsfed",
+        fediz_realm: "client_wsfed",
+        fediz_reply: "https://dem-client-wsfed.cloudtrust.io/j_spring_fediz_security_check",
+        fediz_logout_redirect_to: "https://dem-client-wsfed.cloudtrust.io/performLogout",
+    },
+    #sp_wsfed_1
+    { 
+        port: 7000,
+        name: "wsfed1",
+        route: "dem-wsfed1.cloudtrust.io",
+        protocol: "wsfed",
+        connection_address: "https://dem-wsfed1.cloudtrust.io",
+        saml_entity_id: "",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "https://dem-wsfed1.cloudtrust.io",
+        fediz_issuer: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/wsfed",
+        fediz_realm: "sp_wsfed1",
+        fediz_reply: "https://dem-wsfed1.cloudtrust.io/j_spring_fediz_security_check",
+        fediz_logout_redirect_to: "https://dem-wsfed1.cloudtrust.io/performLogout",
+    },
+    #sp_wsfed_2
+    { 
+        port: 7000,
+        name: "wsfed2",
+        route: "dem-wsfed2.cloudtrust.io",
+        protocol: "wsfed",
+        connection_address: "https://dem-wsfed2.cloudtrust.io",
+        saml_entity_id: "",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "https://dem-wsfed2.cloudtrust.io",
+        fediz_issuer: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/wsfed",
+        fediz_realm: "sp_wsfed2",
+        fediz_reply: "https://dem-wsfed2.cloudtrust.io/j_spring_fediz_security_check",
+        fediz_logout_redirect_to: "https://dem-wsfed2.cloudtrust.io/performLogout",
+    },
+    #sp_wsfed_3
+    { 
+        port: 7000,
+        name: "wsfed3",
+        route: "dem-wsfed3.cloudtrust.io",
+        protocol: "wsfed",
+        connection_address: "https://dem-wsfed3.cloudtrust.io",
+        saml_entity_id: "",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "https://dem-wsfed3.cloudtrust.io",
+        fediz_issuer: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/wsfed",
+        fediz_realm: "sp_wsfed3",
+        fediz_reply: "https://dem-wsfed3.cloudtrust.io/j_spring_fediz_security_check",
+        fediz_logout_redirect_to: "https://dem-wsfed3.cloudtrust.io/performLogout",
+    },
+    #sp_wsfed_4
+    { 
+        port: 7000,
+        name: "wsfed4",
+        route: "dem-wsfed4.cloudtrust.io",
+        protocol: "wsfed",
+        connection_address: "https://dem-wsfed4.cloudtrust.io",
+        saml_entity_id: "",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "https://dem-wsfed4.cloudtrust.io",
+        fediz_issuer: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/wsfed",
+        fediz_realm: "sp_wsfed4",
+        fediz_reply: "https://dem-wsfed4.cloudtrust.io/j_spring_fediz_security_check",
+        fediz_logout_redirect_to: "https://dem-wsfed4.cloudtrust.io/performLogout",
+    },
+    #sp_saml1
+    { 
+        port: 7000,
+        name: "saml1",
+        route: "dem-saml1.cloudtrust.io",
+        protocol: "SAML",
+        connection_address: "https://dem-saml1.cloudtrust.io",
+        saml_entity_id: "sp_saml1",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "",
+        fediz_issuer: "",
+        fediz_realm: "",
+        fediz_reply: "",
+        fediz_logout_redirect_to: "",
+    },
+    #sp_saml2
+    { 
+        port: 7000,
+        name: "saml2",
+        route: "dem-saml2.cloudtrust.io",
+        protocol: "SAML",
+        connection_address: "https://dem-saml2.cloudtrust.io",
+        saml_entity_id: "sp_saml2",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "",
+        fediz_issuer: "",
+        fediz_realm: "",
+        fediz_reply: "",
+        fediz_logout_redirect_to: "",
+    },
+    #sp_saml3
+    { 
+        port: 7000,
+        name: "saml3",
+        route: "dem-saml3.cloudtrust.io",
+        protocol: "SAML",
+        connection_address: "https://dem-saml3.cloudtrust.io",
+        saml_entity_id: "sp_saml3",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "",
+        fediz_issuer: "",
+        fediz_realm: "",
+        fediz_reply: "",
+        fediz_logout_redirect_to: "",
+    },
+    #sp_saml4
+    { 
+        port: 7000,
+        name: "saml4",
+        route: "dem-saml4.cloudtrust.io",
+        protocol: "SAML",
+        connection_address: "https://dem-saml4.cloudtrust.io",
+        saml_entity_id: "sp_saml4",
+        idp_path: "https://dem-idp.cloudtrust.io/auth/realms/automatic_keycloak_testing/protocol/saml/descriptor",
+        fediz_audience_item: "",
+        fediz_issuer: "",
+        fediz_realm: "",
+        fediz_reply: "",
+        fediz_logout_redirect_to: "",
+    },
+]
+

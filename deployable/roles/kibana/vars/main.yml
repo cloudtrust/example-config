@@ -1,0 +1,8 @@
+git_tag: initial
+
+headless_service_name: elasticsearch-master
+replicas: 1
+data_path: /var/lib/elasticsearch
+
+elasticsearch_cluster_name: 'elastic_cluster'
+server_name: dem-kibana.cloudtrust.com

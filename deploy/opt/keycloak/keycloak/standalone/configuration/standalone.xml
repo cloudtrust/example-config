@@ -25,7 +25,7 @@
         <extension module="org.wildfly.extension.undertow"/>
     </extensions>
     <system-properties>
-        <property name="sentry.dsn" value="http://93a4a1c137514df1b81d9ad6e84ecdf5:1b58827e6dc74328817f96541b4a4e87@sentry/2"/>
+        <property name="sentry.dsn" value=""/>
     </system-properties>
     <management>
         <security-realms>
