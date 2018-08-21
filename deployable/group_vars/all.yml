@@ -23,7 +23,7 @@ cluster_name: cloudtrust
 kube_service_ip: 10.254.0.0/16
 master_ip: "{{ ansible_fqdn }}"
 cluster_dns: "{{ kube_service_ip | ipaddr('net') | ipaddr(10) | ipaddr('address') }}"
-#master_ip: "{{ hostvars[groups['etcd'][0]]['ansible_' + interface]['ipv4']['address'] }}"
+address: "{{ hostvars[inventory_hostname]['ansible_' + interface]['ipv4']['address'] }}"
 
 pki_path: /etc/ssl/pki
 ca_cert_file: ca.crt
